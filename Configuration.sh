@@ -3,9 +3,9 @@
 # 🚀 TECH WEBSITE SETUP GUIDE
 # ==============================
 
-# ====================================
-# ✅ FRONTEND SETUP (React + Tailwind)
-# ====================================
+# =========================================================================
+# ✅ FRONTEND SETUP (React + Tailwind)  { sudo apt install nodejs npm }
+# =========================================================================  
 
 # 1. Create React App
 npx create-react-app frontend
