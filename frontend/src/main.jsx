@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './style.css';
 import App from './App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,5 +11,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 
 // This file mounts the App.jsx into the root element.  { Entry Point }
-
-
