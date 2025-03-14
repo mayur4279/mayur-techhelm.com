@@ -32,20 +32,21 @@ function Home() {
 
           <li><Link to="/About-Us">About Us</Link> </li>
 
-          <li
-          onMouseEnter={() => handleMouseEnter('cloud-consulting')}
-          onMouseLeave={handleMouseLeave}
-          >
-          <Link to="/cloud-consulting">Cloud Consulting Services</Link>
-          {dropdown === 'cloudConsulting' && (
-            <ul className="dropdown">
-              <li><Link to="/cloud-consulting">AWS Consulting</Link></li>
-              <li><Link to="/cloud-consulting">Azure Consulting</Link></li>
-              <li><Link to="/cloud-consulting">GCP Consulting</Link></li>
-            </ul>
-          )}
-          </li>
 
+      <li
+          onMouseEnter={() => handleMouseEnter('cloudConsulting')}
+          onMouseLeave={handleMouseLeave}
+      >
+          <Link to="/cloud-consulting">Cloud Consulting Services</Link>
+          
+      {dropdown === 'cloudConsulting' && (
+      <ul className="dropdown">
+      <li><Link to="/cloud-consulting/aws">AWS Consulting</Link></li>
+      <li><Link to="/cloud-consulting/azure">Azure Consulting</Link></li>
+      <li><Link to="/cloud-consulting/gcp">GCP Consulting</Link></li>
+      </ul>
+       )}
+      </li>
 
 
           <li><Link to="/cyber-security">Cyber Security</Link></li> 
