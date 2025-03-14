@@ -8,7 +8,6 @@ import CyberSecurity from './pages/CyberSecurity';
 import AIML from './pages/AIML';
 // import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
-import Navbar from './Navbar';
 
 function App() {
   return (
