@@ -6,7 +6,7 @@ function Home() {
 
     <div className="Home Container">
         
-        <div className="top bar"> 
+        <div className="top-bar"> 
         <span>SINCE 2024 | Certified Employees</span>  
         <div className="contact-info ">  
           <span>INDIA: +91 9881052089</span>
