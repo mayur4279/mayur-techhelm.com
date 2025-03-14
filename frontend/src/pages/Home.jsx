@@ -38,7 +38,7 @@ function Home() {
           <li>
              <Link to="/cyber-security">Cyber Security</Link>
           </li>
-             <Link to="/Hosting Services">Hosting Services</Link>
+             <Link to="/Hosting-Services">Hosting Services</Link>
           <li>
           </li>
           <li>
