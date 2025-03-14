@@ -32,7 +32,7 @@ function Home() {
           <li>           
             <Link to="/">Home</Link>
           </li>
-          <li>
+          {/* <li>
              <Link to="/cloud-consulting">Cloud Consulting Services</Link>
           </li>
           <li>
@@ -42,7 +42,7 @@ function Home() {
           <li>
           </li>
           <li>
-            <Link to = "/blog">Resource Center</Link>
+            <Link to = "/Blog">Resource Center</Link>
           </li>
       
           <li>
@@ -50,7 +50,7 @@ function Home() {
           </li>
           <li>
             <Link to="/contact-us">Contact Us</Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
 
