@@ -33,8 +33,8 @@ function Home() {
           <li><Link to="/About-Us">About Us</Link> </li>
 
 
-      <li
-          onMouseEnter={() => handleMouseEnter('cloud-consulting')}
+      {/* <li
+          onMouseEnter={() => handleMouseEnter('CloudConsulting')}
           onMouseLeave={handleMouseLeave}
       >
           <Link to="/cloud-consulting">Cloud Consulting Services</Link>
@@ -46,9 +46,17 @@ function Home() {
       <li><Link to="/cloud-consulting/gcp">GCP Consulting</Link></li>
       </ul>
        )}
-      </li>
+      </li> */}
          
-          {/* <li> <Link to="/cloud-consulting">Cloud Consulting Services</Link> </li> */}
+
+
+      <li
+          onMouseEnter={() => handleMouseEnter('CloudConsulting')}
+          onMouseLeave={handleMouseLeave}
+      >
+       <Link to="/cloud-consulting">Cloud Consulting Services</Link> 
+       
+       </li>
 
           <li><Link to="/cyber-security">Cyber Security</Link></li> 
           
