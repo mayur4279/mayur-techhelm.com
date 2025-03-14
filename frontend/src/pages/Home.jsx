@@ -69,10 +69,10 @@ function Home() {
       {/* Hero Section */}
       <div className="hero-section">
         <div className="hero-content">
-          <h2>
+          <h1>
             Expert Cloud, Cybersecurity and DevOps Solutions <br />
             <span>Expert Protection Around the Clock</span>
-          </h2>
+          </h1>
           <p>
             VAPT • 24/7 MANAGED SECURITY • SIEM & SOAR CONSULTING • CLOUD SECURITY & MANAGEMENT
           </p>
