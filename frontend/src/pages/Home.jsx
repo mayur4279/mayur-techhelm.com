@@ -33,7 +33,7 @@ function Home() {
           <li><Link to="/About-Us">About Us</Link> </li>
 
           <li
-          onMouseEnter={() => handleMouseEnter('cloudConsulting')}
+          onMouseEnter={() => handleMouseEnter('cloud-consulting')}
           onMouseLeave={handleMouseLeave}
           >
           <Link to="/cloud-consulting">Cloud Consulting Services</Link>
