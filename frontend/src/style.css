@@ -73,40 +73,74 @@ body, html {
 
 
 
-
-
-
 /* Hero Section */
 .hero-section {
-  background: blue;
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* Gradient background */
   color: white;
-  height: 400px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
+  text-align: center;
 }
 
 .hero-content {
-  text-align: center;
-  background: rgba(0, 0, 0, 0.6);
-  padding: 20px;
-  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay for contrast */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1s ease-in-out;
+  max-width: 800px;
 }
 
 .hero-content h1 {
-  font-size: 36px;
-  margin: 0;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 16px;
+}
+
+.hero-content h1 span {
+  color: #ffdd57; /* Highlight color for impact */
 }
 
 .hero-content p {
-  font-size: 18px;
+  font-size: 20px;
   margin: 16px 0;
+  color: #d3d3d3;
 }
 
+/* CTA Button */
+.cta-button {
+  background-color: #ffdd57;
+  color: #1e3c72;
+  padding: 12px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 
+.cta-button:hover {
+  background-color: #ffc107;
+  transform: translateY(-2px);
+}
 
-
-
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 
 
