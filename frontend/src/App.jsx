@@ -12,8 +12,8 @@ import AIML from './pages/AIML';
 function App() {
   return (
     <Router>
-      <div className="Routes">
-      <Navbar /> 
+      <div className="min-h-screen flex flex-col">
+
         {/* Routes */}
         <div className="flex-grow">
           <Routes>

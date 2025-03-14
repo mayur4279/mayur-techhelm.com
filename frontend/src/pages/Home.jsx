@@ -17,7 +17,7 @@ function Home() {
 
 
    {/* Navigation Bar  */}
-   {/* <nav className="navbar">
+   <nav className="Navbar">
         <div className="logo">
           <span className="logo-ibn">T</span>
           <span className="logo-green">E</span>
@@ -52,7 +52,7 @@ function Home() {
             <Link to="/contact-us">Contact Us</Link>
           </li>
         </ul>
-      </nav> */}
+      </nav>
 
     </div>
   );
