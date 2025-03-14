@@ -42,7 +42,7 @@ body, html {
   color: #290a6b;
 }
 
-.nav-links {
+/* .nav-links {
   list-style: none;
   display: flex;
   gap: 24px;
@@ -58,5 +58,5 @@ body, html {
 
 .nav-links li:hover {
   color: #0801ca;
-}
+} */
 
