@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import CloudConsulting from './pages/CloudConsulting';

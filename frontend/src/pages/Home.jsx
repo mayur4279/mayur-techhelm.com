@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -6,9 +6,9 @@ function Home() {
 
     <div className="Home Container">
         
-        <div classname="top bar"> 
+        <div className="top bar"> 
         <span>SINCE 2024 | Certified Employees</span>  
-        <div classname="contact-info ">  
+        <div className="contact-info ">  
           <span>INDIA: +91 9881052089</span>
           <span>sales@techhelm.com </span>    
         </div>
@@ -45,7 +45,7 @@ function Home() {
           <li>
           </li>
           <li>
-            <Link to = "/Blog"> Resource Center</Link>
+            <Link to = "/blog">Resource Center</Link>
           </li>
       
           <li>
