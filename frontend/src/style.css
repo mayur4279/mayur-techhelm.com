@@ -1,0 +1,63 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+.top-bar {
+  background-color: #0b106d;
+  color: white;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}  
+
+
+.contact-info span {
+  margin-left: 12px;
+}
+
+
+
+
+/* Navbar */
+.navbar {
+  background-color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo-ibn {
+  color: #3b3b3b;
+}
+
+.logo-green {
+  color: #4caf50;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+  color: #333;
+  font-size: 16px;
+}
+
+.nav-links li:hover {
+  color: #4caf50;
+}
+
+
