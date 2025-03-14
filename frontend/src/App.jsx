@@ -8,7 +8,7 @@ import CyberSecurity from './pages/CyberSecurity';
 import AIML from './pages/AIML';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import './style.css'
+// import './style.css'
 
 function App() {
   return (
