@@ -17,7 +17,7 @@ function Home() {
 
 
    {/* Navigation Bar  */}
-   <nav className="navbar">
+   {/* <nav className="navbar">
         <div className="logo">
           <span className="logo-ibn">T</span>
           <span className="logo-green">E</span>
@@ -32,7 +32,7 @@ function Home() {
           <li>           
             <Link to="/">Home</Link>
           </li>
-          {/* <li>
+          <li>
              <Link to="/cloud-consulting">Cloud Consulting Services</Link>
           </li>
           <li>
@@ -50,9 +50,9 @@ function Home() {
           </li>
           <li>
             <Link to="/contact-us">Contact Us</Link>
-          </li> */}
+          </li>
         </ul>
-      </nav>
+      </nav> */}
 
     </div>
   );
