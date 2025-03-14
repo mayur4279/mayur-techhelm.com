@@ -71,21 +71,17 @@ function Home() {
         <div className="hero-content">
           <h1>
             Expert Cloud, Cybersecurity and DevOps Solutions <br />
-            <span>Expert Protection Around the Clock</span>
+            <span><h2>Expert Protection Around the Clock</h2></span>
           </h1>
           <p>
             VAPT • 24/7 MANAGED SECURITY • SIEM & SOAR CONSULTING • CLOUD SECURITY & MANAGEMENT
           </p>
           <button className="cta-button">Contact Our Expert</button>
         </div>
-      </div>   
-
-      
-
-
+      </div>  
 
     </div>
   );
-}
+} 
 
 export default Home;
