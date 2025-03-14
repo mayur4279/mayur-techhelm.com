@@ -28,7 +28,7 @@ function Home() {
         </div>
 
         <ul className="nav-links">
-          <li>Home</li>
+          <li>Home</li> 
           <li>Why Techelm</li>
           <li>Cloud Consulting Services</li>
           <li>Cyber Security</li>
