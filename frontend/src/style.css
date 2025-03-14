@@ -53,25 +53,29 @@ body, html {
 }
 
 .nav-links li {
+  margin-right: 24px;
   cursor: pointer;
-  color: black; /* Ensuring black color */
+  color: black;
   font-size: 16px;
+  border: none;
 }
 
-/* Remove link styling */
+/* Remove any before/after content */
+.nav-links li::before,
+.nav-links li::after {
+  content: none;
+}
+
 .nav-links a {
-  text-decoration: none; 
-  color: black; /* Keep text black */
+  text-decoration: none;
+  color: black;
 }
 
 .nav-links a:visited,
 .nav-links a:hover,
 .nav-links a:active {
-  color: black; /* Prevent color change */
-  background-color: white; /* Prevent background change */
+  color: black;
+  background-color: white;
 }
-
-
-
 
 
