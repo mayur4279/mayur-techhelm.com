@@ -76,6 +76,36 @@ body, html {
 
 
 
+/* Hero Section */
+.hero-section {
+  background: blue;
+  color: white;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin: 16px 0;
+}
+
+
+
+
 
 
 

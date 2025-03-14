@@ -64,6 +64,22 @@ function Home() {
       </nav>
 
 
+
+
+      {/* Hero Section */}
+      <div className="hero-section">
+        <div className="hero-content">
+          <h1>
+            Expert Cloud, Cybersecurity and DevOps Solutions <br />
+            <span>Expert Protection Around the Clock</span>
+          </h1>
+          <p>
+            VAPT • 24/7 MANAGED SECURITY • SIEM & SOAR CONSULTING • CLOUD SECURITY & MANAGEMENT
+          </p>
+          <button className="cta-button">Contact Our Expert</button>
+        </div>
+      </div>   
+
       
 
 
