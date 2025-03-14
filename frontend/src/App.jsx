@@ -6,6 +6,9 @@ import CloudConsulting from './pages/CloudConsulting';
 import DevOps from './pages/DevOps';
 import CyberSecurity from './pages/CyberSecurity';
 import AIML from './pages/AIML';
+import AboutUs from './pages/About-us ';  
+
+
 // import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
 
@@ -18,6 +21,7 @@ function App() {
         <div className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="about-us" element={<AboutUs /> } /> 
             <Route path="/cloud-consulting" element={<CloudConsulting />} />
             <Route path="/devops" element={<DevOps />} />
             <Route path="/cyber-security" element={<CyberSecurity />} />

@@ -22,6 +22,10 @@ body, html {
 
 
 
+
+
+
+
 /* Navbar */
 .Navbar {
   background-color: white;
@@ -50,11 +54,24 @@ body, html {
 
 .nav-links li {
   cursor: pointer;
-  color: #333;
+  color: black; /* Ensuring black color */
   font-size: 16px;
 }
 
-.nav-links li:hover {
-  color: #0801ca;
+/* Remove link styling */
+.nav-links a {
+  text-decoration: none; 
+  color: black; /* Keep text black */
 }
+
+.nav-links a:visited,
+.nav-links a:hover,
+.nav-links a:active {
+  color: black; /* Prevent color change */
+  background-color: white; /* Prevent background change */
+}
+
+
+
+
 
