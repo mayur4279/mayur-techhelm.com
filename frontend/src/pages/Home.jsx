@@ -33,9 +33,6 @@ function Home() {
             <Link to="/">Home</Link>
           </li>
           <li>
-             <Link to="/">Why IBN</Link>
-          </li>
-          <li>
              <Link to="/cloud-consulting">Cloud Consulting Services</Link>
           </li>
           <li>
