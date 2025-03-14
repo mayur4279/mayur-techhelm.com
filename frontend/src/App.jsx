@@ -18,8 +18,6 @@ function App() {
         <Navbar />
 
 
-
-
         {/* Routes */}
         <div className="flex-grow">
           <Routes>
@@ -31,8 +29,6 @@ function App() {
             <Route path="/blog" element={<Blog />} />
           </Routes>
         </div>
-
-
 
         {/* Footer */}
         <Footer />
