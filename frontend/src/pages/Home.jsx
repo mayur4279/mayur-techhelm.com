@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -28,14 +29,31 @@ function Home() {
         </div>
 
         <ul className="nav-links">
-          <li>Home</li> 
-          <li>Why Techelm</li>
-          <li>Cloud Consulting Services</li>
-          <li>Cyber Security</li>
-          <li>Hosting Services</li>
-          <li>Resource Center</li>
-          <li>Company</li>
-          <li>Contact Us</li>
+          <li>           
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+             <Link to="/">Why IBN</Link>
+          </li>
+          <li>
+             <Link to="/cloud-consulting">Cloud Consulting Services</Link>
+          </li>
+          <li>
+             <Link to="/cyber-security">Cyber Security</Link>
+          </li>
+             <Link to="/Hosting Services">Hosting Services</Link>
+          <li>
+          </li>
+          <li>
+            <Link to = "/Blog"> Resource Center</Link>
+          </li>
+      
+          <li>
+            <Link to="/company">Company</Link>
+          </li>
+          <li>
+            <Link to="/contact-us">Contact Us</Link>
+          </li>
         </ul>
       </nav>
 

@@ -35,11 +35,11 @@ body, html {
 }
 
 .logo-ibn {
-  color: #3b3b3b;
+  color: #660b0b;
 }
 
 .logo-green {
-  color: #4caf50;
+  color: #290a6b;
 }
 
 .nav-links {
@@ -57,7 +57,6 @@ body, html {
 }
 
 .nav-links li:hover {
-  color: #4caf50;
+  color: #0801ca;
 }
-
 

@@ -6,17 +6,15 @@ import CloudConsulting from './pages/CloudConsulting';
 import DevOps from './pages/DevOps';
 import CyberSecurity from './pages/CyberSecurity';
 import AIML from './pages/AIML';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+// import Navbar from './components/Navbar';
+// import Footer from './components/Footer';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col">
-        {/* Navbar */}
-         {/* <Navbar /> */}
-
-
+      <div className="Routes">
+      <Navbar /> 
         {/* Routes */}
         <div className="flex-grow">
           <Routes>
@@ -29,8 +27,6 @@ function App() {
           </Routes>
         </div>
 
-        {/* Footer */}
-        {/* <Footer /> */}
       </div>
     </Router>
   );
