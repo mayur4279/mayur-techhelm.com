@@ -29,31 +29,23 @@ function Home() {
         </div>
 
         <ul className="nav-links">
-          <li>           
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-             <Link to="/cloud-consulting">Cloud Consulting Services</Link>
-          </li>
-          <li>
-             <Link to="/cyber-security">Cyber Security</Link>
-          </li>
-             <Link to="/Hosting-Services">Hosting Services</Link>
-          <li>
-          </li>
-          <li>
-            <Link to = "/Blog">Resource Center</Link>
-          </li>
-      
-          <li>
-            <Link to="/company">Company</Link>
-          </li>
-          <li>
-            <Link to="/contact-us">Contact Us</Link>
-          </li>
-        </ul>
-      </nav>
 
+          <li><Link to="/About">About Us</Link> </li>
+
+          <li><Link to="/cloud-consulting">Cloud Consulting Services</Link></li>
+
+          <li><Link to="/cyber-security">Cyber Security</Link></li> 
+          
+          <li><Link to="/Hosting-Services">Hosting Services</Link></li>
+      
+          <li><Link to="/company">Company</Link></li>
+
+          <li><Link to="/contact-us">Contact Us</Link></li>
+
+        </ul>
+
+      </nav>
+      
     </div>
   );
 }
