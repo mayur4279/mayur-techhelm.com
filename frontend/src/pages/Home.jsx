@@ -65,23 +65,22 @@ function Home() {
 
 
 
-      import { Link } from 'react-router-dom';
 
-<div className="hero-section">
-  <div className="hero-content">
-    <h1>
-      Expert Cloud, Cybersecurity and DevOps Solutions <br />
-      <span>Expert Protection Around the Clock</span>
-    </h1>
-    <p>
-      VAPT • 24/7 MANAGED SECURITY • SIEM & SOAR CONSULTING • CLOUD SECURITY & MANAGEMENT
-    </p>
-    <Link to="/contact-us" className="cta-button">Contact Our Expert</Link>
-  </div>
-</div>
+      {/* Hero Section */}
+      <div className="hero-section">
+        <div className="hero-content">
+          <h1>
+            Expert Cloud, Cybersecurity and DevOps Solutions <br />
+            <span>Expert Protection Around the Clock</span>
+          </h1>
+          <p>
+            VAPT • 24/7 MANAGED SECURITY • SIEM & SOAR CONSULTING • CLOUD SECURITY & MANAGEMENT
+          </p>
+          <button className="cta-button">Contact Our Expert</button>
+        </div>
+      </div>   
 
       
-
 
 
 
