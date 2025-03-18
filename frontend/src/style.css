@@ -101,7 +101,7 @@ body, html {
   margin-bottom: 16px;
 }
 
-.hero-content h2 span {
+.hero-content h1 span {
   color: #ffdd57; /* Highlight color for impact */
 }
 
@@ -141,6 +141,7 @@ body, html {
     transform: translateY(0);
   }
 }
+
 
 
 
