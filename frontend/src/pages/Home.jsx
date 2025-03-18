@@ -159,10 +159,11 @@ function Home() {
             <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" />
           </div>
           <div className="partner-item">
-            <img src="https://www.jio.com/content/dam/jio/jio-logo.png" alt="Jio Cloud" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Fortinet_logo.svg" alt="Fortinet" />
           </div>
           <div className="partner-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/OpenStack_logo_2016.svg" alt="OpenStack" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Sophos_logo.svg" alt="Sophos" />
+          </div>
           </div>
         </div>
         </div>
