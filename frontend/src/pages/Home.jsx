@@ -80,6 +80,34 @@ function Home() {
         </div>
       </div>  
 
+
+
+
+
+      <div className="why-helmbytes-container">
+      <h2 className="section-title">Why HelmBytes?</h2>
+      
+      <div className="services-section">
+        <div className="service-card">
+          <h3>Comprehensive Cybersecurity</h3>
+          <p>
+            We offer top-tier Managed Security (mSOC) services including Vulnerability Assessment, Pen Testing, and Red Team operations. 
+            Our solutions integrate SIEM & SOAR with 24/7 monitoring and rapid incident response.
+          </p>
+        </div>
+
+        <div className="service-card">
+          <h3>Cloud Consulting Excellence</h3>
+          <p>
+            As an AWS and Azure partner, we provide Cloud Assessment, Migration, and Optimization services. 
+            We specialize in cost-saving strategies and enhanced performance across Public, Private, and Hybrid Cloud environments.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
     </div>
   );
 } 
