@@ -71,10 +71,10 @@ function Home() {
         <div className="hero-content">
           <h1>
             Expert Cloud, Cybersecurity and DevOps Solutions <br />
-            <span>Expert Protection Around the Clock</span>
+            <span>24/7 Expert Protection You Can Trust</span>
           </h1>
           <p>
-          • Cloud Consulting • DevOps Soluctions • Comprehensive Cybersecurity • CLOUD SECURITY & MANAGEMENT
+          • CLOUD CONSULTING • DEVOPS SOLUTIONS • COMPREHENSIVE CYBERSECURITY • CLOUD SECURITY & MANAGEMENT
           </p>
           <button className="cta-button">Contact Our Expert</button>
         </div>
