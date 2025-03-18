@@ -88,6 +88,13 @@ function Home() {
       <h2 className="section-title">Why HelmBytes?</h2>
       
       <div className="services-section">
+
+      <div className="service-card">
+          <h3>Cloud Consulting Excellence</h3>
+          <p>
+            As an AWS and Azure partner, we provide Cloud Assessment, Migration, and Optimization services. 
+            We specialize in cost-saving strategies and enhanced performance across Public, Private, and Hybrid Cloud environments.
+         
         <div className="service-card">
           <h3>Comprehensive Cybersecurity</h3>
           <p>
@@ -97,10 +104,30 @@ function Home() {
         </div>
 
         <div className="service-card">
-          <h3>Cloud Consulting Excellence</h3>
+          <h3>End-to-End DevOps Solutions</h3>
           <p>
-            As an AWS and Azure partner, we provide Cloud Assessment, Migration, and Optimization services. 
-            We specialize in cost-saving strategies and enhanced performance across Public, Private, and Hybrid Cloud environments.
+            We provide comprehensive DevOps services including CI/CD automation, infrastructure as code (IaC), 
+            and container orchestration using Kubernetes and Docker. 
+            Our solutions enhance deployment speed, reduce downtime, and improve system reliability.
+          </p>
+        </div>
+
+        <div className="service-card">
+          <h3>Infrastructure Automation</h3>
+          <p>
+            Automate infrastructure provisioning and management with tools like Terraform and Ansible. 
+            Achieve consistency and scalability across your cloud and on-prem environments.
+          </p>
+        </div>
+
+        <div className="service-card">
+          <h3>Monitoring & Performance Tuning</h3>
+          <p>
+            Monitor application health, analyze performance metrics, and implement proactive scaling. 
+            We use tools like Prometheus, Grafana, and ELK Stack to optimize resource utilization and ensure high availability.
+          </p>
+        </div>
+
           </p>
         </div>
       </div>
