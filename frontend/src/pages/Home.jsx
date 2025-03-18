@@ -112,7 +112,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="service-card">
+        {/* <div className="service-card">
           <h3>Infrastructure Automation</h3>
           <p>
             Automate infrastructure provisioning and management with tools like Terraform and Ansible. 
@@ -126,7 +126,7 @@ function Home() {
             Monitor application health, analyze performance metrics, and implement proactive scaling. 
             We use tools like Prometheus, Grafana, and ELK Stack to optimize resource utilization and ensure high availability.
           </p>
-        </div>
+        </div> */}
 
           </p>
         </div>
