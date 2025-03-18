@@ -74,7 +74,7 @@ function Home() {
             <span>Expert Protection Around the Clock</span>
           </h1>
           <p>
-            VAPT • 24/7 MANAGED SECURITY • SIEM & SOAR CONSULTING • CLOUD SECURITY & MANAGEMENT
+          • Cloud Consulting • DevOps Soluctions • Comprehensive Cybersecurity • CLOUD SECURITY & MANAGEMENT
           </p>
           <button className="cta-button">Contact Our Expert</button>
         </div>
