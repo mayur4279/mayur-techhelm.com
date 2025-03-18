@@ -210,6 +210,7 @@ body, html {
 
 /* Parteners logo-section code */
 
+
 .partners-section {
   padding: 3rem 2rem;
   background-color: #f9f9f9;
@@ -239,18 +240,19 @@ body, html {
 .partners-container {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .partners-row {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .partner-item {
-  width: 120px;
-  height: 60px;
+  width: 150px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -262,7 +264,7 @@ body, html {
   max-height: 100%;
   object-fit: contain;
   filter: grayscale(100%);
-  transition: filter 0.3s ease;
+  transition: filter 0.3s ease, transform 0.3s ease;
 }
 
 .partner-item:hover img {
@@ -272,27 +274,31 @@ body, html {
 
 @media (max-width: 1024px) {
   .partners-row {
-    gap: 1rem;
+    gap: 1.5rem;
   }
   .partner-item {
-    width: 100px;
-    height: 50px;
+    width: 120px;
+    height: 70px;
   }
 }
 
 @media (max-width: 768px) {
   .partners-row {
-    flex-wrap: wrap;
     gap: 1rem;
   }
 
+  .partner-item {
+    width: 100px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
   .partner-item {
     width: 80px;
     height: 40px;
   }
 }
-
-
 
 
 
