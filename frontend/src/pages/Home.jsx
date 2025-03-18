@@ -165,13 +165,6 @@ function Home() {
             <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/OpenStack_logo_2016.svg" alt="OpenStack" />
           </div>
         </div>
-          <div className="partner-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Sophos_logo.svg" alt="Sophos" />
-          </div>
-          <div className="partner-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Fortinet_logo.svg" alt="Fortinet" />
-          </div>
-
         </div>
       </div>
 
