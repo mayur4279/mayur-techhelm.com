@@ -166,9 +166,6 @@ function Home() {
           </div>
         </div>
           <div className="partner-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Acronis_logo.svg" alt="Acronis" />
-          </div>
-          <div className="partner-item">
             <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Sophos_logo.svg" alt="Sophos" />
           </div>
           <div className="partner-item">
