@@ -84,7 +84,7 @@ function Home() {
 
 
       <div className="why-helmbytes-container">
-      <h2 className="section-title">Why Choose HelmBytes?</h2>
+      <h2 className="section-title">Why HelmBytes?</h2>
       
       <div className="services-section">
         <div className="service-card">
