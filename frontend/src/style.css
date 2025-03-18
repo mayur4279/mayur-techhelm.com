@@ -258,28 +258,25 @@ body, html {
   transition: transform 0.3s ease;
 }
 
-/* Keep grayscale initially */
 .partner-item img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  /* filter: grayscale(100%); */
   transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-/* On hover, remove grayscale to show original color */
+
 .partner-item:hover img {
-  filter: grayscale(0); /* Show original color */
+  filter: grayscale(0); 
   transform: scale(1.1);
 }
 
-/* Keep original color after hover (avoid reverting to grayscale) */
+
 .partner-item:active img {
   filter: grayscale(0) !important;
   transform: scale(1) !important;
 }
 
-/* Responsive adjustments */
 @media (max-width: 1024px) {
   .partners-row {
     gap: 2rem;
