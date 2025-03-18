@@ -10,7 +10,7 @@ function Home() {
         <span>SINCE 2024 | Certified Employees</span>  
         <div className="contact-info ">  
           <span>INDIA: +91 9881052089</span>
-          <span>sales@techhelm.com </span>    
+          <span>sales@helmbytes.com </span>    
         </div>
         </div>
      
@@ -51,8 +51,6 @@ function Home() {
       </li> */}
          
 
-
-
           <li> <Link to="/cloud-consulting">Cloud Consulting Services</Link> </li>
 
           <li><Link to="/cyber-security">Cyber Security</Link></li> 
@@ -81,6 +79,7 @@ function Home() {
           <button className="cta-button">Contact Our Expert</button>
         </div>
       </div>  
+
 
 
 
@@ -139,6 +138,55 @@ function Home() {
         </div>
       </div>
     </div>
+
+
+
+
+
+
+    <div className="partners-section">
+      <h2 className="section-title">Our Cyber Security And Cloud Consulting Partners</h2>
+      <div className="partners-container">
+        {/* Row 1 */}
+        <div className="partners-row">
+          <div className="partner-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg" alt="Azure" />
+          </div>
+          <div className="partner-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg" alt="Google Cloud" />
+          </div>
+          <div className="partner-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" />
+          </div>
+          <div className="partner-item">
+            <img src="https://www.jio.com/content/dam/jio/jio-logo.png" alt="Jio Cloud" />
+          </div>
+          <div className="partner-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/OpenStack_logo_2016.svg" alt="OpenStack" />
+          </div>
+        </div>
+
+        {/* Row 2 */}
+        <div className="partners-row">
+          <div className="partner-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Acronis_logo.svg" alt="Acronis" />
+          </div>
+          <div className="partner-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Sophos_logo.svg" alt="Sophos" />
+          </div>
+          <div className="partner-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Fortinet_logo.svg" alt="Fortinet" />
+          </div>
+          <div className="partner-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Veeam_Logo.svg" alt="Veeam" />
+          </div>
+          <div className="partner-item">
+            <img src="https://www.arcserve.com/sites/default/files/2022-06/arcserve-logo-color_0.png" alt="Arcserve" />
+          </div>
+        </div>
+      </div>
+    </div>
+
 
 
 
