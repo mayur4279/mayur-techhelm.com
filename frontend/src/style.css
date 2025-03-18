@@ -240,13 +240,13 @@ body, html {
 .partners-container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem; /* Increased gap between rows */
 }
 
 .partners-row {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem; /* Increased gap between logos */
   flex-wrap: wrap;
 }
 
@@ -272,19 +272,20 @@ body, html {
   transform: scale(1.1);
 }
 
+/* Responsive adjustments */
 @media (max-width: 1024px) {
   .partners-row {
-    gap: 1.5rem;
+    gap: 2rem;
   }
   .partner-item {
-    width: 120px;
+    width: 130px;
     height: 70px;
   }
 }
 
 @media (max-width: 768px) {
   .partners-row {
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .partner-item {
