@@ -19,13 +19,15 @@ function Home() {
    {/* Navigation Bar  */}
    <nav className="Navbar">
         <div className="logo">
-          <span className="logo-ibn">T</span>
-          <span className="logo-green">E</span>
-          <span className="logo-green">C</span>
           <span className="logo-ibn">H</span>
           <span className="logo-green">E</span>
           <span className="logo-green">L</span>
-          <span className="logo-green">M</span>
+          <span className="logo-ibn">M</span>
+          <span className="logo-green">B</span>
+          <span className="logo-green">Y</span>
+          <span className="logo-green">T</span>
+          <span className="logo-green">E</span>
+          <span className="logo-green">S</span>
         </div>
 
         <ul className="nav-links">
