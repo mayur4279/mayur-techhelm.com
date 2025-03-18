@@ -165,9 +165,6 @@ function Home() {
             <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/OpenStack_logo_2016.svg" alt="OpenStack" />
           </div>
         </div>
-
-        {/* Row 2 */}
-        <div className="partners-row">
           <div className="partner-item">
             <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Acronis_logo.svg" alt="Acronis" />
           </div>
@@ -177,17 +174,9 @@ function Home() {
           <div className="partner-item">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Fortinet_logo.svg" alt="Fortinet" />
           </div>
-          <div className="partner-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Veeam_Logo.svg" alt="Veeam" />
-          </div>
-          <div className="partner-item">
-            <img src="https://www.arcserve.com/sites/default/files/2022-06/arcserve-logo-color_0.png" alt="Arcserve" />
-          </div>
+
         </div>
       </div>
-    </div>
-
-
 
 
 
