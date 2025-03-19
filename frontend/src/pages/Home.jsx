@@ -171,6 +171,55 @@ function Home() {
 
 
 
+      <div className="links-section">
+      <div className="links-container">
+        {/* Consultancy Section */}
+        <div className="links-column">
+          <div className="column-title">Consultancy</div>
+          <div className="link-item">➔ Azure Consulting Services</div>
+          <div className="link-item">➔ Azure Security Services</div>
+          <div className="link-item">➔ Azure Modernisation</div>
+          <div className="link-item">➔ Cloud Managed Services</div>
+          <div className="link-item">➔ Cloud Cost Optimization</div>
+          <div className="link-item">➔ Hybrid Cloud Solution</div>
+          <div className="link-item">➔ Cloud Disaster Recovery</div>
+          <div className="link-item">➔ Microsoft 365 Setup and Migration</div>
+        </div>
+
+        {/* Tech Support Section */}
+        <div className="links-column">
+          <div className="column-title">Tech Support</div>
+          <div className="link-item">➔ Active Directory & Azure AD</div>
+          <div className="link-item">➔ DevOps</div>
+          <div className="link-item">➔ Cloud Security Audit</div>
+        </div>
+
+        {/* Resource Center Section */}
+        <div className="links-column">
+          <div className="column-title">Resource Center</div>
+          <div className="link-item">➔ Case Studies</div>
+          <div className="link-item">➔ Contact Us</div>
+          <div className="link-item">➔ Blogs</div>
+          <div className="link-item">➔ Microsoft Marketplace</div>
+          <div className="link-item">➔ FAQ</div>
+        </div>
+
+        {/* Reach Us Section */}
+        <div className="links-column">
+          <div className="column-title">Reach Us</div>
+          <div className="link-subtitle">For Sales</div>
+          <div className="link-item">📞 India: +91 9881052089</div>
+          <div className="link-item">✉️ sales@helmbytes.com</div>
+          <div className="link-subtitle">For Support</div>
+          <div className="link-item">📞 India: +91 9881052089/div>
+          <div className="link-subtitle">For General</div>
+          <div className="link-item">📞 India: +91-9881052089</div>
+        </div>
+      </div>
+    </div>
+
+
+
     </div>
   );
 } 
