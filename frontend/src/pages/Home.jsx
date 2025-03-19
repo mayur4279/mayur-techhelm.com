@@ -211,7 +211,7 @@ function Home() {
           <div className="link-item">📞 India: +91 9881052089</div>
           <div className="link-item">✉️ sales@helmbytes.com</div>
           <div className="link-subtitle">For Support</div>
-          <div className="link-item">📞 India: +91 9881052089/div>
+          <div className="link-item">📞 India: +91 9881052089</div>
           <div className="link-subtitle">For General</div>
           <div className="link-item">📞 India: +91-9881052089</div>
         </div>
