@@ -28,6 +28,7 @@ function App() {
             <Route path="/ai-ml" element={<AIML />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/About-us" element={<AboutUs />} />
+
           </Routes>
         </div>
 

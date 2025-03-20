@@ -60,6 +60,11 @@ function Home() {
           <li><Link to="/company">Company</Link></li>
 
           <li><Link to="/contact-us">Contact Us</Link></li>
+
+          <li><Link to="/contact-us">Contact Us</Link></li>
+
+          <li><Link to="/blog">blog</Link></li>
+
         </ul>
       </nav>
 
