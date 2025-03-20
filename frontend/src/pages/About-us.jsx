@@ -23,11 +23,11 @@ const AboutUs = () => {
       <div className="why-us">
         <h2>Why Us</h2>
         <ul>
-          <li>ISO-certified and GDPR-compliant</li>
-          <li>Over 100 successful global projects</li>
-          <li>24/7 dedicated support and monitoring</li>
-          <li>Expert team with over 15 years of experience</li>
-          <li>Customized cloud and security solutions</li>
+          <li>Committed to industry standards and data protection</li>
+          <li>Successfully delivered multiple projects to satisfied clients</li>
+          <li>Providing reliable support and monitoring for smooth operation</li>
+          <li> Driven by a passionate team with deep technical expertise</li>
+          <li>Offering tailored cloud and security solutions to meet business needs</li>
         </ul>
       </div>
 
