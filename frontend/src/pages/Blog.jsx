@@ -28,7 +28,7 @@ const RecentBlog = () => {
 
   return (
     <div className="recent-blog">
-      <div className="blog-title">Recent Blog</div>
+      <div className="blog-title">Blogs</div>
       <div className="blog-container">
         {blogs.map((blog, index) => (
           <div key={index} className="blog-card">
