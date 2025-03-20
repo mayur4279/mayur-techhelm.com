@@ -32,7 +32,7 @@ function Home() {
 
         <ul className="nav-links">
 
-          <li><Link to="/About-Us">About Us</Link> </li>
+          <li><Link to="/About-us">About Us</Link> </li>
 
 
       {/* <li
