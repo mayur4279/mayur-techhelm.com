@@ -76,9 +76,9 @@ function Home() {
             Expert Cloud, Cybersecurity and DevOps Solutions <br />
             {/* <span>24/7 Expert Protection You Can Trust</span> */}
           </h1>
-          <p>
+          {/* <p>
           • CLOUD CONSULTING • DEVOPS SOLUTIONS • COMPREHENSIVE CYBERSECURITY • CLOUD SECURITY & MANAGEMENT
-          </p>
+          </p> */}
           <button className="cta-button">Contact Our Expert</button>
         </div>
       </div>  
