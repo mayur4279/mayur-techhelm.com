@@ -7,7 +7,7 @@ import DevOps from './pages/DevOps';
 import CyberSecurity from './pages/CyberSecurity';
 import AboutUs from './pages/About-us';  
 import Hosting from './pages/Hosting'
-// import Contactus from './pages/Contact'
+import Contactus from './pages/Contact'
 // import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
 
@@ -26,7 +26,7 @@ function App() {
             <Route path="/Hosting-Services" element={<Hosting />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/About-us" element={<AboutUs />} />
-            {/* <Route path="/contact-us" element={<Contactus />} /> */}
+            <Route path="/contact-us" element={<Contactus />} />
       
           </Routes>
         </div>
