@@ -53,17 +53,15 @@ function Home() {
 
           <li> <Link to="/cloud-consulting">Cloud Consulting Services</Link> </li>
 
-          <li><Link to="/cyber-security">Cyber Security</Link></li> 
+          <li><Link to="/security-services">Cyber Security Services</Link></li> 
+
+          <li><Link to="/DevOps-Solutions">DevOps Soluctions </Link></li>  
           
           <li><Link to="/Hosting-Services">Hosting Services</Link></li>
-      
-          <li><Link to="/company">Company</Link></li>
-
-          <li><Link to="/contact-us">Contact Us</Link></li>
-
-          <li><Link to="/contact-us">Contact Us</Link></li>
 
           <li><Link to="/blog">blog</Link></li>
+          
+          <li><Link to="/contact-us">Contact Us</Link></li>
 
         </ul>
       </nav>
