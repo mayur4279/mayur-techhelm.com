@@ -1,20 +1,13 @@
 import React from "react";
 import "../css/cloud-consulting.css";
-import { FaCloud, FaServer, FaShieldAlt, FaDesktop, FaDatabase, FaSyncAlt } from "react-icons/fa";
 
 const services = [
-  { icon: <FaShieldAlt />, title: "Azure Cloud Security Assessment & Compliances" },
-  { icon: <FaSyncAlt />, title: "Cloud Migration Services" },
-  { icon: <FaShieldAlt />, title: "Azure Security Services" },
-  { icon: <FaCloud />, title: "Azure AD Support Services" },
-  { icon: <FaDesktop />, title: "Azure Virtual Desktop Infrastructure" },
-  { icon: <FaServer />, title: "Cloud Support And Managed Services" },
-  { icon: <FaDatabase />, title: "Cloud Cost Optimization" },
-  { icon: <FaCloud />, title: "Application & Data Modernization" },
-  { icon: <FaSyncAlt />, title: "Backup & Disaster Recovery Solutions" },
-  { icon: <FaCloud />, title: "Hybrid Cloud Services" },
-  { icon: <FaServer />, title: "Microsoft Office 365 Migration" },
-  { icon: <FaCloud />, title: "Microsoft 365 Support Services" },
+  { title: "Azure Modernisation – Application & Data", description: "Optimize applications and data for efficiency and innovation on Microsoft Azure." },
+  { title: "Backup & Disaster Recovery Solutions", description: "Secure your data against disruptions for uninterrupted business continuity." },
+  { title: "Hybrid Cloud Solutions", description: "Seamless integration for unparalleled flexibility and efficiency." },
+  { title: "Migration", description: "Smooth business migration for secure cloud transitions." },
+  { title: "Optimisation & Well-Architected Framework", description: "Optimize cloud efficiency while ensuring a scalable and resilient foundation." },
+  { title: "Support & Managed Services", description: "24/7 proactive solutions for optimized IT performance." }
 ];
 
 const CloudConsulting = () => {
@@ -25,8 +18,9 @@ const CloudConsulting = () => {
       <div className="services-grid">
         {services.map((service, index) => (
           <div key={index} className="service-card">
-            <div className="icon">{service.icon}</div>
             <h3>{service.title}</h3>
+            <p className="service-description">{service.description}</p>
+            <a href="#" className="read-more">Read More →</a>
           </div>
         ))}
       </div>
@@ -35,3 +29,4 @@ const CloudConsulting = () => {
 };
 
 export default CloudConsulting;
+
