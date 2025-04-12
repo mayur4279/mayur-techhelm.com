@@ -143,10 +143,6 @@ function Home() {
     </div>
 
 
-
-
-
-
     <div className="partners-section">
       <h2 className="section-title">Our Services</h2>
       <div className="partners-container">
@@ -162,7 +158,7 @@ function Home() {
             <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" />
           </div>
           <div className="partner-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Fortinet_logo.svg" alt="Fortinet" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Fortinet_logo.svg" alt="Fortinet" />
           </div>
           <div className="partner-item">
             <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Sophos_logo.svg" alt="Sophos" />
