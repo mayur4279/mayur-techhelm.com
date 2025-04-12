@@ -161,7 +161,7 @@ function Home() {
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Fortinet_logo.svg" alt="Fortinet" />
           </div>
           <div className="partner-item">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagEMVJ5hQnEW2Q8k7zMyuhRJwbJ2Hx6KovQ&s" alt="Sophos" />
+            <img src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2020/11/sophos.jpg?fit=810%2C456&ssl=1&resize=1280%2C720" alt="Sophos" />
           </div>
           </div>
         </div>
