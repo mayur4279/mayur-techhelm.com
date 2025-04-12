@@ -161,7 +161,7 @@ function Home() {
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Fortinet_logo.svg" alt="Fortinet" />
           </div>
           <div className="partner-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Sophos_logo.svg" alt="Sophos" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagEMVJ5hQnEW2Q8k7zMyuhRJwbJ2Hx6KovQ&s" alt="Sophos" />
           </div>
           </div>
         </div>
