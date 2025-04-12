@@ -57,9 +57,9 @@ function Home() {
 
           <li><Link to="/DevOps-Solutions">DevOps Solutions </Link></li>  
           
-          <li><Link to="/Hosting-Services">Hosting Services</Link></li>
+          {/* <li><Link to="/Hosting-Services">Hosting Services</Link></li> */}
 
-          <li><Link to="/blog">blog</Link></li>
+          {/* <li><Link to="/blog">blog</Link></li> */}
           
           <li><Link to="/contact-us">Contact Us</Link></li>
 

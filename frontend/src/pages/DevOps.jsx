@@ -32,6 +32,5 @@ const DevOpsSolutions = () => {
   );
 };
 
-export default DevOpsSolutions;
+export default DevOpsSolutions; 
 
-  
