@@ -23,8 +23,8 @@ function App() {
             <Route path="/cloud-consulting" element={<CloudConsulting />} />
             <Route path="/DevOps-Solutions" element={<DevOps />} />
             <Route path="/security-services" element={<CyberSecurity />} />
-            <Route path="/Hosting-Services" element={<Hosting />} />
-            <Route path="/blog" element={<Blog />} />
+            {/* <Route path="/Hosting-Services" element={<Hosting />} /> */}
+            {/* <Route path="/blog" element={<Blog />} /> */}
             <Route path="/About-us" element={<AboutUs />} />
             <Route path="/contact-us" element={<Contactus />} />
       
