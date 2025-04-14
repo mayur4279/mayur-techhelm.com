@@ -11,7 +11,6 @@ import migrationImage from '../assets/migration.jpg';
 import backupImage from '../assets/backup.jpg';
 import firewallImage from '../assets/firewall.jpg';
 
-
 const Cloud = () => {
   const services = [
     {
@@ -77,8 +76,10 @@ const Cloud = () => {
         {services.map((service, index) => (
           <div className="service-card" key={index}>
             <img src={service.image} alt={service.title} className="service-image" />
-            <h3 className="service-title">{service.title}</h3>
-            <p className="service-description">{service.description}</p>
+            <div className="service-content">
+              <h3 className="service-title">{service.title}</h3>
+              <p className="service-description">{service.description}</p>
+            </div>
           </div>
         ))}
       </div>
