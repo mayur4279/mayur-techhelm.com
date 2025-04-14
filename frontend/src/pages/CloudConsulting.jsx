@@ -1,60 +1,52 @@
 // Cloud.jsx
 import React from "react";
-import "./cloud.css";
-import hybridCloudImg from "./assets/hybrid-cloud.jpg";
-import deploymentImg from "./assets/deployment.jpg";
-import securityImg from "./assets/security.jpg";
-import monitoringImg from "./assets/monitoring.jpg";
-import costImg from "./assets/cost-optimization.jpg";
-import migrationImg from "./assets/migration.jpg";
-import backupImg from "./assets/backup.jpg";
-import firewallImg from "./assets/firewall.jpg";
+import "../css/cloud-consulting.css";
 
 const services = [
   {
     title: "Hybrid Cloud Solutions",
     description: "Seamlessly integrate on-premise infrastructure with public and private clouds for agility and scalability.",
-    image: hybridCloudImg
+    image: "https://images.unsplash.com/photo-1581090700227-1e8e5f1a5b8b"
   },
   {
     title: "Deployment of Services",
     description: "Streamlined deployment strategies for cloud-native and hybrid environments.",
-    image: deploymentImg
+    image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
   },
   {
     title: "Security Enhancement",
     description: "Boost your cloud security with Microsoft Defender for Cloud and Azure Sentinel.",
-    image: securityImg
+    image: "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7"
   },
   {
     title: "Troubleshooting",
     description: "Swift identification and resolution of cloud-related issues to ensure minimal downtime.",
-    image: monitoringImg
+    image: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg"
   },
   {
     title: "24/7 Monitoring & Support",
     description: "Proactive monitoring and round-the-clock support to ensure optimal cloud performance.",
-    image: monitoringImg
+    image: "https://images.unsplash.com/photo-1581093588401-9b6c1f0c0f8e"
   },
   {
     title: "Cost Optimization",
     description: "Maximize your cloud ROI with strategic cost-saving solutions and resource management.",
-    image: costImg
+    image: "https://images.pexels.com/photos/4386373/pexels-photo-4386373.jpeg"
   },
   {
     title: "Lift & Shift Migration",
     description: "Efficient migration of existing workloads to the cloud without disruption.",
-    image: migrationImg
+    image: "https://images.unsplash.com/photo-1581090700227-1e8e5f1a5b8b"
   },
   {
     title: "Backup & Disaster Recovery",
     description: "Robust cloud-based backup and disaster recovery plans to protect your critical data.",
-    image: backupImg
+    image: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg"
   },
   {
     title: "Firewall Implementation",
     description: "Expert implementation of advanced firewalls like Fortinet and Sophos.",
-    image: firewallImg
+    image: "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7"
   }
 ];
 
