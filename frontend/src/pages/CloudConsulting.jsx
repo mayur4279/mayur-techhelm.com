@@ -32,12 +32,12 @@ const Cloud = () => {
       description:
         'We enhance your cloud security posture using tools like Microsoft Defender for Cloud and Sentinel. This includes threat detection, vulnerability management, and incident response to keep your infrastructure protected at all times.',
     },
-    {
-      title: 'Troubleshooting',
-      image: troubleshootImage,
-      description:
-        'Our experts diagnose and resolve cloud-related issues quickly to reduce downtime and disruption. Whether it’s performance, connectivity, or configuration problems, we ensure smooth and stable cloud operations.',
-    },
+    // {
+    //   title: 'Troubleshooting',
+    //   image: troubleshootImage,
+    //   description:
+    //     'Our experts diagnose and resolve cloud-related issues quickly to reduce downtime and disruption. Whether it’s performance, connectivity, or configuration problems, we ensure smooth and stable cloud operations.',
+    // },
     {
       title: '24/7 Monitoring & Support',
       image: monitoringImage,
