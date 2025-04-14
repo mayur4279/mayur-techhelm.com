@@ -11,18 +11,6 @@ import migrationImage from '../assets/migration.jpg';
 import backupImage from '../assets/backup.jpg';
 import firewallImage from '../assets/firewall.jpg';
 
-// Cloud.jsx
-import React, { useState } from 'react';
-import './cloud.css';
-import hybridImage from './assets/hybrid-cloud.jpg';
-import deployImage from './assets/deployment.jpg';
-import securityImage from './assets/security.jpg';
-import troubleshootImage from './assets/troubleshooting.jpg';
-import monitoringImage from './assets/monitoring.jpg';
-import costImage from './assets/cost-optimization.jpg';
-import migrationImage from './assets/migration.jpg';
-import backupImage from './assets/backup.jpg';
-import firewallImage from './assets/firewall.jpg';
 
 const Cloud = () => {
   const [activeTab, setActiveTab] = useState(0);
