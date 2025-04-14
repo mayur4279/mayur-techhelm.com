@@ -1,7 +1,20 @@
 import React from "react";
-import "../css/cloud-services.css";
-import { FaCloud, FaServer, FaShieldAlt, FaSyncAlt, FaChartLine } from "react-icons/fa";
+import "../css/cloud-consulting.css";
 
+// Import images
+// import hybridImage from '../assets/hybrid-cloud.jpg';
+// import deployImage from '../assets/deployment.jpg';
+import securityImage from '../assets/security.jpg';
+import monitoringImage from '../assets/monitoring.jpg';
+import costImage from '../assets/cost-optimization.jpg';
+import migrationImage from '../assets/migration.jpg';
+import backupImage from '../assets/backup.jpg';
+import firewallImage from '../assets/firewall.jpg';
+// import troubleshootImage from '../assets/troubleshooting.jpg';
+// import cloudHero from '../assets/cloud-hero.jpg';
+
+// Import icons
+import { FaShieldAlt, FaServer, FaSyncAlt, FaChartLine, FaMoneyBillWave, FaDatabase, FaNetworkWired, FaLifeRing } from 'react-icons/fa';
 const CloudServices = () => {
   const services = [
     {
