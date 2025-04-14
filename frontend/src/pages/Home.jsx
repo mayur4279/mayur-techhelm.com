@@ -81,18 +81,17 @@ function Home() {
   <div className="hero-overlay"></div>
   <div className="hero-content">
     <h1>
-      Expert <span>Cloud</span>, <span>Security</span> & <span>DevOps</span> Solutions
+      Expert <span>Cloud</span>, <span>Cybersecurity</span> and <span>DevOps</span> Solutions
     </h1>
     <p className="services-tags">
       <span>CLOUD CONSULTING</span>
       <span>DEVOPS SOLUTIONS</span>
-      <span>CYBERSECURITY</span>
-      <span>CLOUD MANAGEMENT</span>
+      <span>COMPREHENSIVE CYBERSECURITY</span>
+      <span>CLOUD SECURITY & MANAGEMENT</span>
     </p>
-    <Link to="/contact-us" className="cta-button">Get Started</Link>
+    <Link to="/contact-us" className="cta-button">Contact Our Experts</Link>
   </div>
 </div>
-
 
 
 
