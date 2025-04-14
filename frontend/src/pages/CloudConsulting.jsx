@@ -11,10 +11,7 @@ import migrationImage from '../assets/migration.jpg';
 import backupImage from '../assets/backup.jpg';
 import firewallImage from '../assets/firewall.jpg';
 
-
 const Cloud = () => {
-  const [activeTab, setActiveTab] = useState(0);
-
   const services = [
     {
       title: 'Hybrid Cloud Solutions',
@@ -39,6 +36,12 @@ const Cloud = () => {
       image: firewallImage,
       description:
         'We implement enterprise-grade firewalls such as Fortinet and Sophos to safeguard your cloud edge. Our configurations include IPS/IDS, VPN, and application-level filtering for granular control over network access, reducing exposure to external threats and ensuring compliance with security policies.',
+    },
+    {
+      title: 'Troubleshooting',
+      image: troubleshootImage,
+      description:
+        'We provide fast and effective troubleshooting for cloud systems, addressing network, application, and infrastructure issues. Our experts identify root causes quickly and resolve issues efficiently to restore optimal service levels and minimize business disruption.',
     },
     {
       title: '24/7 Monitoring & Support',
@@ -69,21 +72,18 @@ const Cloud = () => {
   return (
     <div className="cloud-container">
       <h1 className="cloud-title">Cloud Consulting Services</h1>
-      <div className="tab-buttons">
+      <div className="table-view">
         {services.map((service, index) => (
-          <button
-            key={index}
-            className={`tab-button ${activeTab === index ? 'active' : ''}`}
-            onClick={() => setActiveTab(index)}
-          >
-            {service.title}
-          </button>
+          <div key={index} className="service-row">
+            <div className="service-image">
+              <img src={service.image} alt={service.title} />
+            </div>
+            <div className="service-text">
+              <h3>{service.title}</h3>
+              <p>{service.description}</p>
+            </div>
+          </div>
         ))}
-      </div>
-      <div className="tab-content">
-        <img src={services[activeTab].image} alt={services[activeTab].title} className="tab-image" />
-        <h3>{services[activeTab].title}</h3>
-        <p>{services[activeTab].description}</p>
       </div>
     </div>
   );
