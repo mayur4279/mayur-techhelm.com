@@ -37,12 +37,12 @@ const Cloud = () => {
       description:
         'We implement enterprise-grade firewalls such as Fortinet and Sophos to safeguard your cloud edge. Our configurations include IPS/IDS, VPN, and application-level filtering for granular control over network access, reducing exposure to external threats and ensuring compliance with security policies.',
     },
-    // {
-    //   title: 'Troubleshooting',
-    //   image: troubleshootImage,
-    //   description:
-    //     'We provide fast and effective troubleshooting for cloud systems, addressing network, application, and infrastructure issues. Our experts identify root causes quickly and resolve issues efficiently to restore optimal service levels and minimize business disruption.',
-    // },
+    {
+      title: 'Troubleshooting',
+      image: troubleshootImage,
+      description:
+        'We provide fast and effective troubleshooting for cloud systems, addressing network, application, and infrastructure issues. Our experts identify root causes quickly and resolve issues efficiently to restore optimal service levels and minimize business disruption.',
+    },
     {
       title: '24/7 Monitoring & Support',
       image: monitoringImage,
@@ -72,20 +72,18 @@ const Cloud = () => {
   return (
     <div className="cloud-container">
       <h1 className="cloud-title">Cloud Consulting Services</h1>
-      <section className="cloud-section">
+      <div className="timeline">
         {services.map((service, index) => (
-          <div
-            className={`cloud-service-block ${index % 2 !== 0 ? 'reverse' : ''}`}
-            key={index}
-          >
-            <img src={service.image} alt={service.title} className="cloud-service-img" />
-            <div className="cloud-service-text">
+          <div className="timeline-item" key={index}>
+            <div className="timeline-dot" />
+            <div className="timeline-content">
+              <img src={service.image} alt={service.title} className="timeline-img" />
               <h3>{service.title}</h3>
               <p>{service.description}</p>
             </div>
           </div>
         ))}
-      </section>
+      </div>
     </div>
   );
 };
