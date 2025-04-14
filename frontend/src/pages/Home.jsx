@@ -1,5 +1,3 @@
-Home.jsx  
-
 
 
 // import { motion } from 'framer-motion';
