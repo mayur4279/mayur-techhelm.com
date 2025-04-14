@@ -10,7 +10,7 @@ import costImage from '../assets/cost-optimization.jpg';
 import migrationImage from '../assets/migration.jpg';
 import backupImage from '../assets/backup.jpg';
 import firewallImage from '../assets/firewall.jpg';
-import troubleshootImage from '../assets/troubleshooting.jpg';
+// import troubleshootImage from '../assets/troubleshooting.jpg';
 import cloudHero from '../assets/cloud-hero.jpg';
 
 // Import icons
@@ -66,18 +66,18 @@ const Cloud = () => {
         'VPN setup & management'
       ]
     },
-    {
-      title: 'Cloud Troubleshooting',
-      icon: <FaLifeRing className="service-icon" />,
-      image: troubleshootImage,
-      description: 'We provide fast and effective troubleshooting for cloud systems, addressing network, application, and infrastructure issues. Our experts identify root causes quickly and resolve issues efficiently to restore optimal service levels and minimize business disruption.',
-      features: [
-        'Performance bottleneck analysis',
-        'Connectivity issue resolution',
-        'Configuration error correction',
-        'Root cause analysis reports'
-      ]
-    },
+    // {
+    //   title: 'Cloud Troubleshooting',
+    //   icon: <FaLifeRing className="service-icon" />,
+    //   image: troubleshootImage,
+    //   description: 'We provide fast and effective troubleshooting for cloud systems, addressing network, application, and infrastructure issues. Our experts identify root causes quickly and resolve issues efficiently to restore optimal service levels and minimize business disruption.',
+    //   features: [
+    //     'Performance bottleneck analysis',
+    //     'Connectivity issue resolution',
+    //     'Configuration error correction',
+    //     'Root cause analysis reports'
+    //   ]
+    // },
     {
       title: '24/7 Monitoring & Support',
       icon: <FaChartLine className="service-icon" />,
