@@ -76,23 +76,23 @@ function Home() {
 
 
 
+{/* Hero Section */}
+<div className="hero-section">
+  <div className="hero-overlay"></div>
+  <div className="hero-content">
+    <h1>
+      Expert <span>Cloud</span>, <span>Cybersecurity</span> and <span>DevOps</span> Solutions
+    </h1>
+    <p className="services-tags">
+      <span>CLOUD CONSULTING</span>
+      <span>DEVOPS SOLUTIONS</span>
+      <span>COMPREHENSIVE CYBERSECURITY</span>
+      <span>CLOUD SECURITY & MANAGEMENT</span>
+    </p>
+    <Link to="/contact-us" className="cta-button">Contact Our Experts</Link>
+  </div>
+</div>
 
-
-
-
-      {/* Hero Section */}
-      <div className="hero-section">
-        <div className="hero-content">
-          <h1>
-            Expert Cloud, Cybersecurity and DevOps Solutions <br />
-            {/* <span>24/7 Expert Protection You Can Trust</span> */}
-          </h1>
-          <p>
-          • CLOUD CONSULTING • DEVOPS SOLUTIONS • COMPREHENSIVE CYBERSECURITY • CLOUD SECURITY & MANAGEMENT
-          </p>
-          <button className="cta-button">Contact Our Expert</button>
-        </div>
-      </div>  
 
 
 
