@@ -12,71 +12,59 @@
 
 .cloud-title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #222;
   margin-bottom: 2rem;
   font-weight: 700;
-  border: 2px solid #ccc;
-  padding: 1rem;
-  border-radius: 10px;
 }
 
 .cloud-services {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem 1rem;
 }
 
 .cloud-section {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap;
+  text-align: center;
 }
 
 .cloud-image-container {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 1rem 0;
 }
 
 .cloud-image {
-  width: 240px;
+  width: 180px;
   height: 180px;
   object-fit: cover;
   border-radius: 50%;
   border: 1px solid #ccc;
 }
 
-.cloud-text {
-  flex: 1;
-  max-width: 400px;
-  text-align: center;
-}
-
 .cloud-card-title {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #1f4068;
   margin-bottom: 0.5rem;
 }
 
 .cloud-card-description {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: #444;
+  padding: 0 1rem;
 }
 
 @media (max-width: 768px) {
-  .cloud-section {
-    flex-direction: column;
+  .cloud-services {
+    grid-template-columns: 1fr;
   }
   .cloud-image {
-    width: 200px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
   }
   .cloud-title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 }
