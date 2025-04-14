@@ -1,220 +1,52 @@
-/* Base Styles */
-.cloud-page {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #2d3748;
-  line-height: 1.6;
-}
-
-/* Hero Section */
-.cloud-hero {
-  display: flex;
-  align-items: center;
-  min-height: 500px;
-  background: linear-gradient(135deg, #1a365d 0%, #2a4365 100%);
-  color: white;
-  padding: 0 5%;
-}
-
-.hero-content {
-  flex: 1;
-  padding-right: 40px;
-}
-
-.hero-content h1 {
-  font-size: 2.8rem;
-  margin-bottom: 20px;
-}
-
-.hero-content p {
-  font-size: 1.2rem;
-  opacity: 0.9;
-  margin-bottom: 30px;
-}
-
-.hero-image {
-  flex: 1;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-}
-
-.hero-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.cta-button {
-  background: #4299e1;
-  color: white;
-  border: none;
-  padding: 12px 30px;
-  font-size: 1.1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.cta-button:hover {
-  background: #3182ce;
-  transform: translateY(-2px);
-}
-
-/* Split-Screen Services */
-.services-container {
-  padding: 60px 5%;
+/* Compact Layout */
+.compact-cloud-page {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 20px;
 }
 
-.service-split {
-  display: flex;
-  min-height: 400px;
-  margin-bottom: 60px;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+.compact-services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
 }
 
-.reverse {
-  flex-direction: row-reverse;
-}
-
-.split-image {
-  flex: 1;
-  background: #f7fafc;
-}
-
-.split-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.split-content {
-  flex: 1;
-  padding: 40px;
+.compact-service-card {
   background: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
 }
 
-.service-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+.compact-service-card:hover {
+  transform: translateY(-5px);
 }
 
-.service-icon {
+.card-icon {
   font-size: 2rem;
-  color: #4299e1;
-  margin-right: 15px;
+  color: #3182ce;
+  margin-bottom: 15px;
 }
 
-.split-content h3 {
-  font-size: 1.8rem;
-  color: #1a365d;
-  margin: 0;
+.compact-service-card h3 {
+  font-size: 1.3rem;
+  margin: 0 0 10px;
+  color: #2d3748;
 }
 
-.split-content p {
-  margin-bottom: 25px;
+.compact-service-card p {
   color: #4a5568;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
 }
 
-.features-list {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 30px;
-}
-
-.features-list li {
-  margin-bottom: 10px;
-  position: relative;
-  padding-left: 25px;
-}
-
-.feature-icon {
-  position: absolute;
-  left: 0;
-  color: #48bb78;
-  font-weight: bold;
-}
-
-.service-cta {
-  align-self: flex-start;
-  background: transparent;
-  color: #4299e1;
-  border: 2px solid #4299e1;
-  padding: 8px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.service-cta:hover {
+.card-highlight {
   background: #ebf8ff;
-}
-
-/* Final CTA */
-.final-cta {
-  text-align: center;
-  padding: 80px 5%;
-  background: #f7fafc;
-}
-
-.final-cta h2 {
-  font-size: 2.2rem;
-  margin-bottom: 20px;
-  color: #1a365d;
-}
-
-.final-cta p {
-  max-width: 600px;
-  margin: 0 auto 30px;
-  font-size: 1.1rem;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .hero-content h1 {
-    font-size: 2.2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .cloud-hero {
-    flex-direction: column;
-    padding: 40px 5%;
-  }
-
-  .hero-content {
-    padding-right: 0;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-
-  .service-split, .reverse {
-    flex-direction: column;
-    min-height: auto;
-  }
-
-  .split-image {
-    height: 250px;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero-content h1 {
-    font-size: 1.8rem;
-  }
-
-  .split-content {
-    padding: 25px;
-  }
-
-  .split-content h3 {
-    font-size: 1.5rem;
-  }
+  color: #3182ce;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  display: inline-block;
 }
