@@ -202,7 +202,7 @@ function Home() {
 
         {/* Resource Center Section */}
         <div className="links-column">
-          <div className="column-title">DevOps Soluctions</div>
+          <div className="column-title">DevOps Solutions</div>
           <div className="link-item">➔ CI/CD Pipeline Automation</div>
           <div className="link-item">➔ Infrastructure as Code (IaC)</div>
           <div className="link-item">➔ Kubernetes & Container Orchestration</div>
