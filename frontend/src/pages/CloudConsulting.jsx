@@ -12,6 +12,7 @@ import migrationImage from '../assets/migration.jpg';
 import backupImage from '../assets/backup.jpg';
 import firewallImage from '../assets/firewall.jpg';
 
+
 const Cloud = () => {
   const services = [
     {
@@ -82,8 +83,12 @@ const Cloud = () => {
           </div>
         ))}
       </div>
+
+      
     </div>
   );
 };
 
 export default Cloud;
+
+
