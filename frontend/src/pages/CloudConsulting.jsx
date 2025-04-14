@@ -11,33 +11,36 @@ import migrationImage from '../assets/migration.jpg';
 import backupImage from '../assets/backup.jpg';
 import firewallImage from '../assets/firewall.jpg';
 
-
 const Cloud = () => {
-  const coreServices = [
-    {
-      title: 'Hybrid Cloud Solutions',
-      image: hybridImage,
-      description:
-        'Our hybrid cloud solutions bridge the gap between on-premises infrastructure and public cloud services, offering seamless integration, data portability, and maximum flexibility. This approach empowers businesses to innovate faster, maintain data sovereignty, and optimize IT operations through intelligent workload placement.',
-    },
-    {
-      title: 'Deployment of Services',
-      image: deployImage,
-      description:
-        'We ensure the smooth deployment of cloud-native and hybrid applications through streamlined CI/CD pipelines. Our engineers design fault-tolerant architectures and apply industry best practices to deliver scalable, secure, and efficient cloud environments tailored to business requirements.',
-    },
-    {
-      title: 'Security Enhancement',
-      image: securityImage,
-      description:
-        'Security is a core priority. With Microsoft Defender for Cloud and Sentinel, we proactively identify risks, monitor compliance, and respond to threats in real time. We integrate these tools into your environment to elevate visibility, automate defenses, and harden your infrastructure against evolving attacks.',
-    },
-    {
-      title: 'Firewall Implementation',
-      image: firewallImage,
-      description:
-        'We implement enterprise-grade firewalls such as Fortinet and Sophos to safeguard your cloud edge. Our configurations include IPS/IDS, VPN, and application-level filtering for granular control over network access, reducing exposure to external threats and ensuring compliance with security policies.',
-    },
+  const pairedCoreServices = [
+    [
+      {
+        title: 'Hybrid Cloud Solutions',
+        image: hybridImage,
+        description:
+          'Our hybrid cloud solutions bridge the gap between on-premises infrastructure and public cloud services, offering seamless integration, data portability, and maximum flexibility. This approach empowers businesses to innovate faster, maintain data sovereignty, and optimize IT operations through intelligent workload placement.',
+      },
+      {
+        title: 'Deployment of Services',
+        image: deployImage,
+        description:
+          'We ensure the smooth deployment of cloud-native and hybrid applications through streamlined CI/CD pipelines. Our engineers design fault-tolerant architectures and apply industry best practices to deliver scalable, secure, and efficient cloud environments tailored to business requirements.',
+      },
+    ],
+    [
+      {
+        title: 'Security Enhancement',
+        image: securityImage,
+        description:
+          'Security is a core priority. With Microsoft Defender for Cloud and Sentinel, we proactively identify risks, monitor compliance, and respond to threats in real time. We integrate these tools into your environment to elevate visibility, automate defenses, and harden your infrastructure against evolving attacks.',
+      },
+      {
+        title: 'Firewall Implementation',
+        image: firewallImage,
+        description:
+          'We implement enterprise-grade firewalls such as Fortinet and Sophos to safeguard your cloud edge. Our configurations include IPS/IDS, VPN, and application-level filtering for granular control over network access, reducing exposure to external threats and ensuring compliance with security policies.',
+      },
+    ],
   ];
 
   const supportServices = [
@@ -79,17 +82,19 @@ const Cloud = () => {
 
       <section className="cloud-section">
         <h2 className="cloud-section-title">Core Infrastructure & Security</h2>
-        <ul className="cloud-service-list">
-          {coreServices.map((service, index) => (
-            <li className="cloud-service-item" key={index}>
-              <img src={service.image} alt={service.title} className="cloud-service-img small" />
-              <div className="cloud-service-text">
-                <h3>{service.title}</h3>
-                <p>{service.description}</p>
+        {pairedCoreServices.map((pair, index) => (
+          <div className="cloud-service-row" key={index}>
+            {pair.map((service, idx) => (
+              <div className="cloud-service-column" key={idx}>
+                <img src={service.image} alt={service.title} className="cloud-service-img" />
+                <div className="cloud-service-text">
+                  <h3>{service.title}</h3>
+                  <p>{service.description}</p>
+                </div>
               </div>
-            </li>
-          ))}
-        </ul>
+            ))}
+          </div>
+        ))}
       </section>
 
       <section className="cloud-section">
