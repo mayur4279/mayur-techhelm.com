@@ -41,12 +41,12 @@ const Cloud = () => {
   ];
 
   const supportServices = [
-    {
-      title: 'Troubleshooting',
-      image: troubleshootImage,
-      description:
-        'We provide fast and effective troubleshooting for cloud systems, addressing network, application, and infrastructure issues. Our experts identify root causes quickly and resolve issues efficiently to restore optimal service levels and minimize business disruption.',
-    },
+    // {
+    //   title: 'Troubleshooting',
+    //   image: troubleshootImage,
+    //   description:
+    //     'We provide fast and effective troubleshooting for cloud systems, addressing network, application, and infrastructure issues. Our experts identify root causes quickly and resolve issues efficiently to restore optimal service levels and minimize business disruption.',
+    // },
     {
       title: '24/7 Monitoring & Support',
       image: monitoringImage,
