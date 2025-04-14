@@ -33,14 +33,18 @@
 
 .cloud-image-container {
   margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .cloud-image {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 50%;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: contain;
   border: 1px solid #ccc;
+  border-radius: 8px;
 }
 
 .cloud-card-title {
@@ -59,10 +63,6 @@
 @media (max-width: 768px) {
   .cloud-services {
     grid-template-columns: 1fr;
-  }
-  .cloud-image {
-    width: 140px;
-    height: 140px;
   }
   .cloud-title {
     font-size: 1.4rem;
