@@ -1,9 +1,9 @@
 import React from "react";
 import "../css/cloud-consulting.css";
 
-// Import images
-// import hybridImage from '../assets/hybrid-cloud.jpg';
-// import deployImage from '../assets/deployment.jpg';
+// Import images (you'll need to add these to your assets folder)
+import hybridImage from '../assets/hybrid-cloud.jpg';
+import deployImage from '../assets/deployment.jpg';
 import securityImage from '../assets/security.jpg';
 import monitoringImage from '../assets/monitoring.jpg';
 import costImage from '../assets/cost-optimization.jpg';
@@ -11,37 +11,37 @@ import migrationImage from '../assets/migration.jpg';
 import backupImage from '../assets/backup.jpg';
 import firewallImage from '../assets/firewall.jpg';
 // import troubleshootImage from '../assets/troubleshooting.jpg';
-// import cloudHero from '../assets/cloud-hero.jpg';
+import cloudHero from '../assets/cloud-hero.jpg';
 
 // Import icons
 import { FaShieldAlt, FaServer, FaSyncAlt, FaChartLine, FaMoneyBillWave, FaDatabase, FaNetworkWired, FaLifeRing } from 'react-icons/fa';
-const CloudServices = () => {
+
+const Cloud = () => {
   const services = [
     {
-      title: "Hybrid Cloud Solutions",
+      title: 'Hybrid Cloud Solutions',
       icon: <FaSyncAlt className="service-icon" />,
-      description: "Seamlessly integrate your on-premises infrastructure with public cloud services for optimal flexibility and performance. Our hybrid solutions provide:",
+      image: hybridImage,
+      description: 'Our hybrid cloud solutions bridge the gap between on-premises infrastructure and public cloud services, offering seamless integration, data portability, and maximum flexibility. This approach empowers businesses to innovate faster, maintain data sovereignty, and optimize IT operations through intelligent workload placement.',
       features: [
-        "Unified management across environments",
-        "Workload portability and optimization",
-        "Enhanced security and compliance",
-        "Cost-effective resource allocation"
-      ],
-      image: "hybrid-cloud.jpg"
+        'Seamless integration between on-prem and cloud',
+        'Workload optimization across environments',
+        'Data sovereignty compliance',
+        'Unified management dashboard'
+      ]
     },
     {
-      title: "Cloud Deployment Services",
+      title: 'Cloud Deployment Services',
       icon: <FaServer className="service-icon" />,
-      description: "Professional deployment of cloud-native and hybrid applications with industry best practices including:",
+      image: deployImage,
+      description: 'We ensure the smooth deployment of cloud-native and hybrid applications through streamlined CI/CD pipelines. Our engineers design fault-tolerant architectures and apply industry best practices to deliver scalable, secure, and efficient cloud environments tailored to business requirements.',
       features: [
-        "Automated CI/CD pipelines",
-        "Infrastructure as Code (IaC)",
-        "Multi-cloud deployment strategies",
-        "Performance-optimized architectures"
-      ],
-      image: "deployment.jpg"
+        'CI/CD pipeline implementation',
+        'Infrastructure as Code (IaC)',
+        'Multi-cloud deployment strategies',
+        'Automated scaling configuration'
+      ]
     },
-    // Add more services as needed
     {
       title: 'Cloud Security Enhancement',
       icon: <FaShieldAlt className="service-icon" />,
@@ -126,46 +126,70 @@ const CloudServices = () => {
         'Disaster recovery testing'
       ]
     }
-
   ];
 
   return (
-    <div className="cloud-services-container">
-      <div className="services-header">
-        <h1>Enterprise Cloud Solutions</h1>
-        <p>Transform your business with our comprehensive cloud services</p>
+    <div className="cloud-page">
+      {/* Hero Section */}
+      <div className="cloud-hero">
+        <div className="hero-content">
+          <h1>Expert Cloud Consulting Services</h1>
+          <p>Transform your business with our comprehensive cloud solutions tailored to your unique needs</p>
+          <button className="cta-button">Get a Free Consultation</button>
+        </div>
+        <div className="hero-image">
+          <img src={cloudHero} alt="Cloud computing infrastructure" />
+        </div>
       </div>
 
-      {services.map((service, index) => (
-        <div key={index} className="service-card">
-          <div className="service-content">
-            <div className="service-icon-container">
-              {service.icon}
+      {/* Services Section */}
+      <div className="cloud-container">
+        <div className="section-header">
+          <h2 className="section-title">Our Cloud Services</h2>
+          <p className="section-subtitle">Comprehensive solutions to optimize your cloud infrastructure</p>
+        </div>
+        
+        <div className="services-grid">
+          {services.map((service, index) => (
+            <div key={index} className="service-card">
+              <div className="service-card-header">
+                <div className="service-icon-container">
+                  {service.icon}
+                </div>
+                <h3>{service.title}</h3>
+              </div>
+              <div className="service-image">
+                <img src={service.image} alt={service.title} />
+              </div>
+              <div className="service-content">
+                <p>{service.description}</p>
+                <div className="service-features">
+                  <h4>Key Features:</h4>
+                  <ul>
+                    {service.features.map((feature, i) => (
+                      <li key={i}>{feature}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             </div>
-            <h2>{service.title}</h2>
-            <p className="service-description">{service.description}</p>
-            
-            <div className="service-features">
-              <h3>Key Features:</h3>
-              <ul>
-                {service.features.map((feature, i) => (
-                  <li key={i}>{feature}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-          
-          <div className="service-image-container">
-            <img 
-              src={`/assets/${service.image}`} 
-              alt={service.title}
-              className="service-image"
-            />
+          ))}
+        </div>
+      </div>
+
+      {/* CTA Section */}
+      <div className="cloud-cta">
+        <div className="cta-content">
+          <h2>Ready to Transform Your Cloud Infrastructure?</h2>
+          <p>Our cloud experts are ready to help you design, implement, and optimize your cloud environment for maximum performance and efficiency.</p>
+          <div className="cta-buttons">
+            <button className="primary-cta">Schedule a Consultation</button>
+            <button className="secondary-cta">Contact Our Team</button>
           </div>
         </div>
-      ))}
+      </div>
     </div>
   );
 };
 
-export default CloudServices;
+export default Cloud;
