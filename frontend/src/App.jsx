@@ -8,8 +8,6 @@ import CyberSecurity from './pages/CyberSecurity';
 import AboutUs from './pages/About-us';  
 // import Hosting from './pages/Hosting'
 import Contactus from './pages/Contact'
-// import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
 
 function App() {
   return (
