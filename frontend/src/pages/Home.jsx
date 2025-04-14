@@ -18,55 +18,64 @@ function Home() {
      
 
 
-   {/* Navigation Bar  */}
-   <nav className="Navbar">
-        <div className="logo">
-          <span className="logo-ibn">H</span>
-          <span className="logo-green">E</span>
-          <span className="logo-green">L</span>
-          <span className="logo-ibn">M</span>
-          <span className="logo-green">B</span>
-          <span className="logo-green">Y</span>
-          <span className="logo-green">T</span>
-          <span className="logo-green">E</span>
-          <span className="logo-green">S</span>
-        </div>
+{/* Navigation Bar */}
+<nav className="Navbar">
+  <div className="logo">
+    <span className="logo-ibn">H</span>
+    <span className="logo-green">E</span>
+    <span className="logo-green">L</span>
+    <span className="logo-ibn">M</span>
+    <span className="logo-green">B</span>
+    <span className="logo-green">Y</span>
+    <span className="logo-green">T</span>
+    <span className="logo-green">E</span>
+    <span className="logo-green">S</span>
+  </div>
 
-        <ul className="nav-links">
-
-          <li><Link to="/About-us">About Us</Link> </li>
-
-
-      {/* <li
-          onMouseEnter={() => handleMouseEnter('CloudConsulting')}
-          onMouseLeave={handleMouseLeave}
-      >
-          <Link to="/cloud-consulting">Cloud Consulting Services</Link>
-
-      {dropdown === 'cloud-consulting' && (
-      <ul className="dropdown">
-      <li><Link to="/cloud-consulting/aws">AWS Consulting</Link></li>
-      <li><Link to="/cloud-consulting/azure">Azure Consulting</Link></li>
-      <li><Link to="/cloud-consulting/gcp">GCP Consulting</Link></li>
+  <ul className="nav-links">
+    <li><Link to="/About-us">About Us</Link></li>
+    
+    <li className="dropdown">
+      <Link to="/cloud-consulting">Cloud Consulting Services</Link>
+      <ul className="dropdown-menu">
+        <li><Link to="/hybrid-cloud-solutions">Hybrid Cloud Solutions</Link></li>
+        <li><Link to="/deployment-services">Deployment of Services</Link></li>
+        <li><Link to="/security-enhancement">Security Enhancement</Link></li>
+        <li><Link to="/troubleshooting">Troubleshooting</Link></li>
+        <li><Link to="/monitoring-support">24/7 Monitoring & Support</Link></li>
+        <li><Link to="/cost-optimization">Cost Optimization</Link></li>
+        <li><Link to="/lift-shift-migration">Lift & Shift Migration</Link></li>
+        <li><Link to="/backup-recovery">Backup & Disaster Recovery</Link></li>
+        <li><Link to="/firewall-implementation">Firewall Implementation</Link></li>
       </ul>
-       )}
-      </li> */}
-         
+    </li>
 
-          <li> <Link to="/cloud-consulting">Cloud Consulting Services</Link> </li>
+    <li className="dropdown">
+      <Link to="/security-services">Cyber Security Services</Link>
+      <ul className="dropdown-menu">
+        <li><Link to="/vapt-services">VAPT Services</Link></li>
+      </ul>
+    </li>
 
-          <li><Link to="/security-services">Cyber Security Services</Link></li> 
+    <li className="dropdown">
+      <Link to="/DevOps-Solutions">DevOps Solutions</Link>
+      <ul className="dropdown-menu">
+        <li><Link to="/ci-cd-pipeline">CI/CD Pipeline Automation</Link></li>
+        <li><Link to="/infrastructure-as-code">Infrastructure as Code (IaC)</Link></li>
+        <li><Link to="/kubernetes">Kubernetes & Container Orchestration</Link></li>
+        <li><Link to="/monitoring-logging">Monitoring & Logging Solutions</Link></li>
+        <li><Link to="/automated-testing">Automated Testing & QA</Link></li>
+        <li><Link to="/devsecops">DevSecOps Implementation</Link></li>
+      </ul>
+    </li>
+    
+    <li><Link to="/contact-us">Contact Us</Link></li>
+  </ul>
+</nav>
 
-          <li><Link to="/DevOps-Solutions">DevOps Solutions </Link></li>  
-          
-          {/* <li><Link to="/Hosting-Services">Hosting Services</Link></li> */}
 
-          {/* <li><Link to="/blog">blog</Link></li> */}
-          
-          <li><Link to="/contact-us">Contact Us</Link></li>
 
-        </ul>
-      </nav>
+
 
 
 
