@@ -40,40 +40,37 @@ const Cloud = () => {
         description:
           'We implement enterprise-grade firewalls such as Fortinet and Sophos to safeguard your cloud edge. Our configurations include IPS/IDS, VPN, and application-level filtering for granular control over network access, reducing exposure to external threats and ensuring compliance with security policies.',
       },
+      {
+        title: '24/7 Monitoring & Support',
+        image: monitoringImage,
+        description:
+          'Around-the-clock server and application monitoring is key to uptime. We utilize advanced observability tools and a proactive support team to detect anomalies, respond to alerts, and provide continuous technical assistance for smooth operations.',
+      },
+      {
+        title: 'Cost Optimization',
+        image: costImage,
+        description:
+          'We help organizations save on cloud costs by analyzing resource usage, rightsizing workloads, and eliminating waste. Our experts implement reserved instances, autoscaling strategies, and budget tracking to maximize value from every cloud dollar spent.',
+      },
+      {
+        title: 'Lift & Shift Migration',
+        image: migrationImage,
+        description:
+          'Migrate legacy workloads with zero data loss and minimal downtime using our lift-and-shift services. We handle architecture replication, infrastructure mapping, and rigorous testing to ensure business continuity during your cloud transition.',
+      },
+      {
+        title: 'Backup & Disaster Recovery',
+        image: backupImage,
+        description:
+          'Disaster recovery is more than backups—it’s about resilience. We provide comprehensive data protection and recovery planning with RTO/RPO alignment, geo-redundant storage, and automated failover strategies to safeguard critical operations during crises.',
+      },
+
     ],
   ];
 
   const supportServices = [
-    // {
-    //   title: 'Troubleshooting',
-    //   image: troubleshootImage,
-    //   description:
-    //     'We provide fast and effective troubleshooting for cloud systems, addressing network, application, and infrastructure issues. Our experts identify root causes quickly and resolve issues efficiently to restore optimal service levels and minimize business disruption.',
-    // },
-    {
-      title: '24/7 Monitoring & Support',
-      image: monitoringImage,
-      description:
-        'Around-the-clock server and application monitoring is key to uptime. We utilize advanced observability tools and a proactive support team to detect anomalies, respond to alerts, and provide continuous technical assistance for smooth operations.',
-    },
-    {
-      title: 'Cost Optimization',
-      image: costImage,
-      description:
-        'We help organizations save on cloud costs by analyzing resource usage, rightsizing workloads, and eliminating waste. Our experts implement reserved instances, autoscaling strategies, and budget tracking to maximize value from every cloud dollar spent.',
-    },
-    {
-      title: 'Lift & Shift Migration',
-      image: migrationImage,
-      description:
-        'Migrate legacy workloads with zero data loss and minimal downtime using our lift-and-shift services. We handle architecture replication, infrastructure mapping, and rigorous testing to ensure business continuity during your cloud transition.',
-    },
-    {
-      title: 'Backup & Disaster Recovery',
-      image: backupImage,
-      description:
-        'Disaster recovery is more than backups—it’s about resilience. We provide comprehensive data protection and recovery planning with RTO/RPO alignment, geo-redundant storage, and automated failover strategies to safeguard critical operations during crises.',
-    },
+
+    
   ];
 
   return (
