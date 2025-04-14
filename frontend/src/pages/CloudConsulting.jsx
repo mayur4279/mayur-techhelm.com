@@ -5,7 +5,6 @@ import "../css/cloud-consulting.css";
 import hybridImage from '../assets/hybrid-cloud.jpg';
 import deployImage from '../assets/deployment.jpg';
 import securityImage from '../assets/security.jpg';
-// import troubleshootImage from '../assets/troubleshooting.jpg';
 import monitoringImage from '../assets/monitoring.jpg';
 import costImage from '../assets/cost-optimization.jpg';
 import migrationImage from '../assets/migration.jpg';
