@@ -36,7 +36,7 @@ function Home() {
     <li><Link to="/About-us">About Us</Link></li>
     
     <li className="dropdown">
-      <Link to="/cloud-consulting">Cloud Consulting Services</Link>
+    <span className="dropdown-parent">Cloud Consulting Services</span>
       <ul className="dropdown-menu">
         <li><Link to="/hybrid-cloud-solutions">Hybrid Cloud Solutions</Link></li>
         <li><Link to="/deployment-services">Deployment of Services</Link></li>
@@ -51,14 +51,14 @@ function Home() {
     </li>
 
     <li className="dropdown">
-      <Link to="/security-services">Cyber Security Services</Link>
+    <span className="dropdown-parent">Cyber Security Services</span>
       <ul className="dropdown-menu">
         <li><Link to="/vapt-services">VAPT Services</Link></li>
       </ul>
     </li>
 
     <li className="dropdown">
-      <Link to="/DevOps-Solutions">DevOps Solutions</Link>
+    <span className="dropdown-parent">DevOps Solutions</span>
       <ul className="dropdown-menu">
         <li><Link to="/ci-cd-pipeline">CI/CD Pipeline Automation</Link></li>
         <li><Link to="/infrastructure-as-code">Infrastructure as Code (IaC)</Link></li>
