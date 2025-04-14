@@ -2,45 +2,33 @@ import React from "react";
 import "../css/cloud-services.css";
 import { FaCloud, FaServer, FaShieldAlt, FaSyncAlt, FaChartLine } from "react-icons/fa";
 
-// Import images
-import hybridImage from '../assets/hybrid-cloud.jpg';
-import deployImage from '../assets/deployment.jpg';
-import securityImage from '../assets/security.jpg';
-import monitoringImage from '../assets/monitoring.jpg';
-import costImage from '../assets/cost-optimization.jpg';
-import migrationImage from '../assets/migration.jpg';
-import backupImage from '../assets/backup.jpg';
-import firewallImage from '../assets/firewall.jpg';
-// import troubleshootImage from '../assets/troubleshooting.jpg';
-import cloudHero from '../assets/cloud-hero.jpg';
-
-
-const services = [
-  {
-    title: "Hybrid Cloud Solutions",
-    icon: <FaSyncAlt className="service-icon" />,
-    description: "Seamlessly integrate your on-premises infrastructure with public cloud services for optimal flexibility and performance. Our hybrid solutions provide:",
-    features: [
-      "Unified management across environments",
-      "Workload portability and optimization",
-      "Enhanced security and compliance",
-      "Cost-effective resource allocation"
-    ],
-    image: "hybrid-cloud.jpg"
-  },
-  {
-    title: "Cloud Deployment Services",
-    icon: <FaServer className="service-icon" />,
-    description: "Professional deployment of cloud-native and hybrid applications with industry best practices including:",
-    features: [
-      "Automated CI/CD pipelines",
-      "Infrastructure as Code (IaC)",
-      "Multi-cloud deployment strategies",
-      "Performance-optimized architectures"
-    ],
-    image: "deployment.jpg"
-  },
-
+const CloudServices = () => {
+  const services = [
+    {
+      title: "Hybrid Cloud Solutions",
+      icon: <FaSyncAlt className="service-icon" />,
+      description: "Seamlessly integrate your on-premises infrastructure with public cloud services for optimal flexibility and performance. Our hybrid solutions provide:",
+      features: [
+        "Unified management across environments",
+        "Workload portability and optimization",
+        "Enhanced security and compliance",
+        "Cost-effective resource allocation"
+      ],
+      image: "hybrid-cloud.jpg"
+    },
+    {
+      title: "Cloud Deployment Services",
+      icon: <FaServer className="service-icon" />,
+      description: "Professional deployment of cloud-native and hybrid applications with industry best practices including:",
+      features: [
+        "Automated CI/CD pipelines",
+        "Infrastructure as Code (IaC)",
+        "Multi-cloud deployment strategies",
+        "Performance-optimized architectures"
+      ],
+      image: "deployment.jpg"
+    },
+    // Add more services as needed
     {
       title: 'Cloud Security Enhancement',
       icon: <FaShieldAlt className="service-icon" />,
@@ -125,6 +113,7 @@ const services = [
         'Disaster recovery testing'
       ]
     }
+
   ];
 
   return (
@@ -164,5 +153,6 @@ const services = [
       ))}
     </div>
   );
+};
 
 export default CloudServices;
