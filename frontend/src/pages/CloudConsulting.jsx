@@ -19,55 +19,55 @@ const Cloud = () => {
       title: 'Hybrid Cloud Solutions',
       image: hybridImage,
       description:
-        'We design and implement hybrid cloud solutions that combine the benefits of public and private clouds, enabling seamless data mobility, scalability, and high availability.',
+        'We design and implement hybrid cloud solutions that combine the benefits of public and private clouds, enabling seamless data mobility, high availability, and scalability. Our approach ensures that businesses can run workloads securely and efficiently across environments while retaining control and visibility.',
     },
     {
       title: 'Deployment of Services',
       image: deployImage,
       description:
-        'We deploy scalable and secure cloud-based applications and infrastructure, automating CI/CD pipelines to ensure high availability and seamless user experiences.',
+        'Our team assists in deploying scalable and secure cloud-based applications and infrastructure. We automate CI/CD pipelines to ensure high availability, optimal performance, and seamless user experiences during rollout across multiple environments.',
     },
     {
       title: 'Security Enhancement',
       image: securityImage,
       description:
-        'Implementing Microsoft Defender for Cloud and Sentinel to proactively detect and respond to threats, ensuring your infrastructure remains secure and compliant.',
+        'We enhance your cloud security posture using tools like Microsoft Defender for Cloud and Sentinel. This includes threat detection, vulnerability management, and incident response to keep your infrastructure protected at all times.',
     },
-    // {
-    //   title: 'Troubleshooting',
-    //   image: troubleshootImage,
-    //   description:
-    //     'Rapid identification and resolution of cloud-related issues to minimize downtime and keep services running smoothly.',
-    // },
+    {
+      title: 'Troubleshooting',
+      image: troubleshootImage,
+      description:
+        'Our experts diagnose and resolve cloud-related issues quickly to reduce downtime and disruption. Whether it’s performance, connectivity, or configuration problems, we ensure smooth and stable cloud operations.',
+    },
     {
       title: '24/7 Monitoring & Support',
       image: monitoringImage,
       description:
-        'Round-the-clock monitoring and support of servers to ensure reliability, performance, and fast issue resolution.',
+        'We offer continuous monitoring and technical support for your servers and cloud infrastructure. With real-time alerts and rapid response, our team ensures high availability and proactive problem resolution around the clock.',
     },
     {
       title: 'Cost Optimization',
       image: costImage,
       description:
-        'Analyzing your cloud infrastructure to reduce costs by identifying underutilized resources and optimizing workloads.',
+        'Our cost optimization services identify underutilized resources and help implement strategies for efficient cloud spending. We help you cut unnecessary costs while improving performance and utilization.',
     },
     {
       title: 'Lift & Shift Migration',
       image: migrationImage,
       description:
-        'Seamless migration of workloads and applications from on-prem to cloud environments with minimal disruption.',
+        'We facilitate smooth lift-and-shift migrations of applications and workloads to the cloud with minimal downtime. Our approach ensures that your operations continue without disruption while transitioning to a modern infrastructure.',
     },
     {
       title: 'Backup & Disaster Recovery',
       image: backupImage,
       description:
-        'Implementing robust backup and DR strategies to safeguard data and ensure business continuity during unexpected events.',
+        'We implement robust backup and disaster recovery strategies tailored to your business needs. This guarantees data availability, integrity, and rapid recovery during system failures, cyber incidents, or natural disasters.',
     },
     {
       title: 'Firewall Implementation',
       image: firewallImage,
       description:
-        'Deploying advanced firewall solutions like Fortinet and Sophos to protect your network from external threats.',
+        'We deploy and manage next-gen firewall solutions such as Fortinet and Sophos to secure your network perimeter. Our firewalls are configured to prevent unauthorized access and monitor traffic across your cloud environment.',
     },
   ];
 
@@ -83,12 +83,8 @@ const Cloud = () => {
           </div>
         ))}
       </div>
-
-      
     </div>
   );
 };
 
 export default Cloud;
-
-
