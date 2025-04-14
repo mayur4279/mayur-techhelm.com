@@ -1,89 +1,69 @@
 /* cloud.css */
 
 .cloud-container {
-  padding: 60px 40px;
-  background-color: #f9fafc;
+  padding: 50px;
+  background-color: #f4f7fa;
   font-family: 'Segoe UI', sans-serif;
+  text-align: center;
 }
 
 .cloud-title {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 60px;
+  font-size: 2.8rem;
+  margin-bottom: 40px;
   color: #1a2b4c;
-  font-weight: 700;
 }
 
-.timeline {
-  position: relative;
-  margin-left: 30px;
-  padding-left: 20px;
-  border-left: 3px solid #0078d7;
+.tab-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 10px;
 }
 
-.timeline-item {
-  position: relative;
-  margin-bottom: 60px;
-  padding-left: 30px;
-}
-
-.timeline-dot {
-  position: absolute;
-  left: -11px;
-  top: 0;
-  width: 20px;
-  height: 20px;
-  background-color: #0078d7;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  box-shadow: 0 0 0 3px #0078d7;
-}
-
-.timeline-content {
+.tab-button {
+  padding: 10px 20px;
   background-color: #ffffff;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease;
+  border: 2px solid #0078d7;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #0078d7;
+  transition: all 0.3s ease;
 }
 
-.timeline-content:hover {
-  transform: translateY(-5px);
+.tab-button:hover,
+.tab-button.active {
+  background-color: #0078d7;
+  color: white;
 }
 
-.timeline-img {
-  width: 160px;
-  height: 100px;
+.tab-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.tab-image {
+  width: 100%;
+  max-height: 300px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-content h3 {
+  font-size: 1.8rem;
   margin-bottom: 15px;
+  color: #1a2b4c;
 }
 
-.timeline-content h3 {
-  font-size: 1.5rem;
-  color: #1c3c6e;
-  margin-bottom: 10px;
-}
-
-.timeline-content p {
+.tab-content p {
   font-size: 1.1rem;
-  line-height: 1.6;
   color: #444;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .timeline {
-    margin-left: 10px;
-    padding-left: 10px;
-  }
-
-  .timeline-img {
-    width: 100%;
-    height: auto;
-  }
-
-  .timeline-content {
-    text-align: center;
-  }
+  line-height: 1.6;
 }

@@ -11,7 +11,22 @@ import migrationImage from '../assets/migration.jpg';
 import backupImage from '../assets/backup.jpg';
 import firewallImage from '../assets/firewall.jpg';
 
+// Cloud.jsx
+import React, { useState } from 'react';
+import './cloud.css';
+import hybridImage from './assets/hybrid-cloud.jpg';
+import deployImage from './assets/deployment.jpg';
+import securityImage from './assets/security.jpg';
+import troubleshootImage from './assets/troubleshooting.jpg';
+import monitoringImage from './assets/monitoring.jpg';
+import costImage from './assets/cost-optimization.jpg';
+import migrationImage from './assets/migration.jpg';
+import backupImage from './assets/backup.jpg';
+import firewallImage from './assets/firewall.jpg';
+
 const Cloud = () => {
+  const [activeTab, setActiveTab] = useState(0);
+
   const services = [
     {
       title: 'Hybrid Cloud Solutions',
@@ -72,17 +87,21 @@ const Cloud = () => {
   return (
     <div className="cloud-container">
       <h1 className="cloud-title">Cloud Consulting Services</h1>
-      <div className="timeline">
+      <div className="tab-buttons">
         {services.map((service, index) => (
-          <div className="timeline-item" key={index}>
-            <div className="timeline-dot" />
-            <div className="timeline-content">
-              <img src={service.image} alt={service.title} className="timeline-img" />
-              <h3>{service.title}</h3>
-              <p>{service.description}</p>
-            </div>
-          </div>
+          <button
+            key={index}
+            className={`tab-button ${activeTab === index ? 'active' : ''}`}
+            onClick={() => setActiveTab(index)}
+          >
+            {service.title}
+          </button>
         ))}
+      </div>
+      <div className="tab-content">
+        <img src={services[activeTab].image} alt={services[activeTab].title} className="tab-image" />
+        <h3>{services[activeTab].title}</h3>
+        <p>{services[activeTab].description}</p>
       </div>
     </div>
   );
