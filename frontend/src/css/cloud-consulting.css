@@ -6,9 +6,22 @@
 
 .cloud-title {
   text-align: center;
-  font-size: 2.8rem;
+  font-size: 3rem;
   color: #1a2b4c;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
+  font-weight: 700;
+}
+
+.cloud-section {
+  margin-bottom: 60px;
+}
+
+.cloud-section-title {
+  font-size: 2rem;
+  color: #20365c;
+  margin-bottom: 40px;
+  border-left: 5px solid #0078d4;
+  padding-left: 15px;
 }
 
 .cloud-service-list {
@@ -23,31 +36,45 @@
 .cloud-service-item {
   display: flex;
   align-items: flex-start;
-  gap: 30px;
-  border-bottom: 1px solid #dcdfe3;
-  padding-bottom: 30px;
+  gap: 25px;
+  padding: 25px 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cloud-service-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .cloud-service-img {
-  width: 180px;
-  height: 140px;
+  width: 120px;
+  height: 90px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 8px;
+}
+
+.cloud-service-img.small {
+  width: 100px;
+  height: 75px;
 }
 
 .cloud-service-text {
-  max-width: 800px;
+  flex: 1;
 }
 
 .cloud-service-text h3 {
   margin: 0 0 10px;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #1c3c6e;
+  font-weight: 600;
 }
 
 .cloud-service-text p {
   margin: 0;
-  color: #333;
+  color: #4a4a4a;
   font-size: 1.05rem;
   line-height: 1.7;
 }
