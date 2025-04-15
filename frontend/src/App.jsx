@@ -18,7 +18,7 @@ function App() {
             {/* <Route path="/DevOps-Solutions" element={<DevOps />} /> */}
             {/* <Route path="/security-services" element={<CyberSecurity />} /> */}
             <Route path="/About-us" element={<AboutUs />} />
-            <Route path="/contact-us" element={<Contactus />} />
+            {/* <Route path="/contact-us" element={<Contactus />} /> */}
       
           </Routes>
         </div>

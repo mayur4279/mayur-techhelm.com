@@ -68,7 +68,7 @@ function Home() {
       </ul>
     </li>
     
-    <li><Link to="/contact-us">Contact Us</Link></li>
+    {/* <li><Link to="/contact-us">Contact Us</Link></li> */}
   </ul>
 </nav>
 
@@ -87,7 +87,7 @@ function Home() {
       <span>COMPREHENSIVE CYBERSECURITY</span>
       <span>CLOUD SECURITY & MANAGEMENT</span>
     </p>
-    <Link to="/contact-us" className="cta-button">Contact Our Experts</Link>
+    {/* <Link to="/contact-us" className="cta-button">Contact Our Experts</Link> */}
   </div>
 </div>
 
