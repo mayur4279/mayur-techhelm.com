@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import { motion } from 'framer-motion';
 import Home from './pages/Home';
-import CloudConsulting from './pages/CloudConsulting';
+// import CloudConsulting from './pages/CloudConsulting';
 import AboutUs from './pages/Aboutus';  
 import Contactus from './pages/Contact'
 
