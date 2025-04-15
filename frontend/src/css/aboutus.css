@@ -153,18 +153,18 @@ p {
 
 
 
-
-
-/* Hero Section */
 .hero-section {
   background: linear-gradient(135deg, #0061ff 0%, #60efff 100%);
   color: white;
-  padding: 100px 0;
+  padding: 60px 0; /* Reduced from 100px */
   text-align: center;
   position: relative;
   overflow: hidden;
-  width: 1200px;
-  height: 100px;
+  width: 100%; /* Changed from fixed 1200px to full width */
+  min-height: 200px; /* Minimum height instead of fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-section::before {
