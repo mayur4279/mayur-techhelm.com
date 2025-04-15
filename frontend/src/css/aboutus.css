@@ -161,7 +161,7 @@ p {
   position: relative;
   overflow: hidden;
   width: 100%; /* Changed from fixed 1200px to full width */
-  min-height: 200px; /* Minimum height instead of fixed height */
+  min-height: 100px; /* Minimum height instead of fixed height */
   display: flex;
   align-items: center;
   justify-content: center;
