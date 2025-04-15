@@ -1,12 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import { motion } from 'framer-motion';
 import Home from './pages/Home';
-// import Blog from './pages/Blog';
 import CloudConsulting from './pages/CloudConsulting';
 import DevOps from './pages/DevOps';
 import CyberSecurity from './pages/CyberSecurity';
 import AboutUs from './pages/About-us';  
-// import Hosting from './pages/Hosting'
 import Contactus from './pages/Contact'
 
 function App() {
