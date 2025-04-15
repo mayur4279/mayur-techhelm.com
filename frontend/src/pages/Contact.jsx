@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../css/contactus.css';
+import '../css/contactus.css';
 
 
 // Use in JSX:
