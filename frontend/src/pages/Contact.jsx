@@ -1,6 +1,9 @@
 import React from 'react';
-import '../css/contactus.css';
+import styles from '../css/contactus.css';
 
+
+// Use in JSX:
+<div className={styles.contactPage}></div>
 const ContactUs = () => {
   return (
     <div className="contact-page">
