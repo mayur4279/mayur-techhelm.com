@@ -57,18 +57,22 @@ p {
 }
 
 .logo {
-  font-size: 1.8rem;
-  font-weight: 700;
-  cursor: pointer;
+  font-size: 22px; /* Slightly smaller */
+  font-weight: bold;
+  letter-spacing: 0.5px;
 }
 
 .logo-ibn {
-  color: #2c3e50;
+  color: #1a5276; /* Dark blue */
 }
 
 .logo-green {
-  color: #4CAF50;
+  color: #26bed2; /* Teal to match top bar */
 }
+
+
+
+
 
 .nav-links {
   display: flex;
