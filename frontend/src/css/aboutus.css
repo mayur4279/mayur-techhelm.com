@@ -164,7 +164,7 @@ p {
   position: relative;
   overflow: hidden;
   width: 1200px;
-  height: 200px;
+  height: 100px;
 }
 
 .hero-section::before {
