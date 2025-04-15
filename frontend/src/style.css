@@ -1,30 +1,44 @@
+/* Base Styles */
 body, html {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
 }
 
-
+/* Top Bar */
 .top-bar {
   background-color: #26bed2;
   color: white;
   padding: 8px 16px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 14px;
-}  
-
-
-.contact-info span {
-  margin-left: 12px;
+  flex-wrap: wrap;
 }
 
+.contact-info {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
 
+.contact-info span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
 
+.contact-info span::before {
+  content: "•";
+  margin-right: 4px;
+}
 
-
-
-
+.contact-info span:first-child::before {
+  content: none;
+}
 
 /* Navbar */
 .Navbar {
@@ -34,6 +48,16 @@ body, html {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .logo-ibn {
@@ -53,17 +77,41 @@ body, html {
 }
 
 .nav-links li {
-  cursor: pointer;
-  color: black;
-  font-size: 16px;
   position: relative;
 }
 
-/* Remove link styling */
-.nav-links a {
-  text-decoration: none; 
+.nav-links a, .dropdown-parent {
+  text-decoration: none;
   color: black;
   padding: 8px 0;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-links a:hover, 
+.dropdown-parent:hover {
+  color: #26bed2;
+}
+
+/* Active link indicator */
+.nav-links a::after, 
+.dropdown-parent::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #26bed2;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.dropdown-parent:hover::after {
+  width: 100%;
 }
 
 /* Dropdown styles */
@@ -83,6 +131,7 @@ body, html {
   padding: 10px 0;
   z-index: 1000;
   list-style: none;
+  animation: fadeIn 0.2s ease-out;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -92,6 +141,7 @@ body, html {
 .dropdown-menu li {
   padding: 8px 20px;
   white-space: nowrap;
+  transition: background-color 0.2s ease;
 }
 
 .dropdown-menu li:hover {
@@ -99,14 +149,99 @@ body, html {
 }
 
 .dropdown-menu a {
-  display: block;
   color: #333;
+  width: 100%;
+  font-size: 14px;
 }
 
 .dropdown-menu a:hover {
-  color: #000;
+  color: #26bed2;
 }
 
+/* Dropdown arrow indicator */
+.dropdown-parent {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dropdown-parent::after {
+  content: "▼";
+  font-size: 10px;
+  margin-left: 4px;
+  border: none;
+  background: none;
+  position: static;
+  width: auto;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.dropdown:hover .dropdown-parent::after {
+  transform: rotate(180deg);
+}
+
+/* Animation for dropdown */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .nav-links {
+    gap: 16px;
+  }
+  
+  .nav-links a, .dropdown-parent {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px;
+  }
+  
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    margin-top: 10px;
+    display: none; /* Will be toggled with JavaScript */
+  }
+  
+  .nav-links li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    border-radius: 0;
+    padding-left: 15px;
+    animation: none;
+  }
+  
+  .top-bar {
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .contact-info {
+    justify-content: center;
+  }
+}
 
 
 
