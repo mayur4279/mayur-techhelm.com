@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/contactus.css';
 
+
 const ContactUs = () => {
   return (
     <div className="hb-contact-page">
@@ -14,8 +15,10 @@ const ContactUs = () => {
 
       {/* Main Contact Section */}
       <section className="hb-contact-section">
+
         <div className="hb-container">
           <div className="hb-contact-grid">
+            
             {/* Contact Form */}
             <div className="hb-contact-form">
               <h2>Send Us a Message</h2>
