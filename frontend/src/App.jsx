@@ -2,8 +2,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import { motion } from 'framer-motion';
 import Home from './pages/Home';
 import CloudConsulting from './pages/CloudConsulting';
-import DevOps from './pages/DevOps';
-import CyberSecurity from './pages/CyberSecurity';
 import AboutUs from './pages/Aboutus';  
 import Contactus from './pages/Contact'
 
@@ -19,8 +17,6 @@ function App() {
             <Route path="/cloud-consulting" element={<CloudConsulting />} />
             <Route path="/DevOps-Solutions" element={<DevOps />} />
             <Route path="/security-services" element={<CyberSecurity />} />
-            {/* <Route path="/Hosting-Services" element={<Hosting />} /> */}
-            {/* <Route path="/blog" element={<Blog />} /> */}
             <Route path="/About-us" element={<AboutUs />} />
             <Route path="/contact-us" element={<Contactus />} />
       
