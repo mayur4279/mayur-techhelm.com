@@ -17,7 +17,6 @@ function Home() {
         </div>
      
 
-
 {/* Navigation Bar */}
 <nav className="Navbar">
   <div className="logo">
