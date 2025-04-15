@@ -28,7 +28,7 @@ const AboutUs = () => {
 
 
 {/* Navigation Bar */}
-<nav className="Navbar">
+<section className="Navbar">
   <div className="logo">
     <span className="logo-ibn">H</span>
     <span className="logo-green">E</span>
@@ -80,7 +80,7 @@ const AboutUs = () => {
     
     <li><Link to="/contact-us">Contact Us</Link></li>
   </ul>
-</nav>
+</section>
 
 
 
