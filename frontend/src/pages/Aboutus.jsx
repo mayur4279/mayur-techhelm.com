@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Add this import
 import '../css/aboutus.css';
 
 const AboutUs = () => {
@@ -8,8 +9,6 @@ const AboutUs = () => {
 
 
     <div className="about-us-container">
-
-
 
       <section className="Home Container">
         
