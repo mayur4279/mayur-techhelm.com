@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
 
 
-    <div className="about-us-container">
+<div className="about-us-container">
 
       <section className="Home Container">
         

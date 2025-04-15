@@ -1,6 +1,6 @@
 
 // import { motion } from 'framer-motion';
-import  '../css/home.css'
+import  '../css/'
 import { Link } from 'react-router-dom';
 
 function Home() {
