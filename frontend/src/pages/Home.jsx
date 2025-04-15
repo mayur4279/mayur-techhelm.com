@@ -37,7 +37,7 @@ function Home() {
     <li className="dropdown">
     <span className="dropdown-parent">Cloud Consulting Services</span>
       <ul className="dropdown-menu">
-        <li><Link to="/hybrid-cloud-solutions">Hybrid Cloud Solutions</Link></li>
+        <li><Link to="/hybrid-cloud-soluctions">Hybrid Cloud Solutions</Link></li>
         <li><Link to="/deployment-services">Deployment of Services</Link></li>
         <li><Link to="/security-enhancement">Security Enhancement</Link></li>
         <li><Link to="/troubleshooting">Troubleshooting</Link></li>
