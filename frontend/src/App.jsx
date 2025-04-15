@@ -14,9 +14,9 @@ function App() {
         <div className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/cloud-consulting" element={<CloudConsulting />} />
-            <Route path="/DevOps-Solutions" element={<DevOps />} />
-            <Route path="/security-services" element={<CyberSecurity />} />
+            {/* <Route path="/cloud-consulting" element={<CloudConsulting />} /> */}
+            {/* <Route path="/DevOps-Solutions" element={<DevOps />} /> */}
+            {/* <Route path="/security-services" element={<CyberSecurity />} /> */}
             <Route path="/About-us" element={<AboutUs />} />
             <Route path="/contact-us" element={<Contactus />} />
       
