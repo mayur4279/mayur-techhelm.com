@@ -19,7 +19,7 @@
   position: relative;
   overflow: hidden;
   width: 100%; /* Changed from fixed 1200px to full width */
-  min-height: 60px; /* Minimum height instead of fixed height */
+  min-height: 40px; /* Minimum height instead of fixed height */
   display: flex;
   align-items: center;
   justify-content: center;
