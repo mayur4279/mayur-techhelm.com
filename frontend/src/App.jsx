@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import CloudConsulting from './pages/CloudConsulting';
 import DevOps from './pages/DevOps';
 import CyberSecurity from './pages/CyberSecurity';
-import AboutUs from './pages/About-us';  
+import AboutUs from './pages/Aboutus';  
 import Contactus from './pages/Contact'
 
 function App() {
