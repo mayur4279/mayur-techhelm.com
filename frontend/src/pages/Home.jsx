@@ -75,10 +75,6 @@ function Home() {
 
 
 
-
-
-
-
 {/* Hero Section */}
 <div className="hero-section">
   <div className="hero-overlay"></div>
