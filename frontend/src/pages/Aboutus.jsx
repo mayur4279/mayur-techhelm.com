@@ -154,13 +154,13 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <section className="cta-section">
+      {/* <section className="cta-section">
         <div className="container">
           <h2>Ready to Transform Your Cloud Infrastructure?</h2>
           <p>Contact us today to discuss how we can help your business achieve its cloud and security goals.</p>
           <button className="cta-button">Get in Touch</button>
         </div>
-      </section>
+      </section> */}
 
 
 
