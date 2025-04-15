@@ -1,122 +1,114 @@
 
-/* Top Bar Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
 .top-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #2c3e50;
+  background-color: #26bed2;
   color: white;
-  font-size: 0.9rem;
-}
-
-.contact-info {
+  padding: 8px 16px;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  font-size: 14px;
+}  
+
+
+.contact-info span {
+  margin-left: 12px;
 }
 
-/* Navbar Styles */
+
+
+
+
+
+
+
+/* Navbar */
 .Navbar {
+  background-color: white;
+  padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
-  background-color: white;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.logo {
-  font-size: 1.8rem;
-  font-weight: 700;
-  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .logo-ibn {
-  color: #2c3e50;
+  color: #660b0b;
 }
 
 .logo-green {
-  color: #4CAF50;
+  color: #290a6b;
 }
 
 .nav-links {
-  display: flex;
   list-style: none;
-  gap: 25px;
+  display: flex;
+  gap: 24px;
   margin: 0;
   padding: 0;
 }
 
 .nav-links li {
-  position: relative;
-}
-
-.nav-links a, .dropdown-parent {
-  color: #333;
-  text-decoration: none;
-  font-weight: 500;
-  padding: 5px 0;
-  position: relative;
   cursor: pointer;
+  color: black;
+  font-size: 16px;
+  position: relative;
 }
 
-.nav-links a:hover, .dropdown-parent:hover {
-  color: #0061ff;
+/* Remove link styling */
+.nav-links a {
+  text-decoration: none; 
+  color: black;
+  padding: 8px 0;
 }
 
-.nav-links a::after, .dropdown-parent::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: #0061ff;
-  transition: width 0.3s ease;
+/* Dropdown styles */
+.dropdown {
+  position: relative;
 }
 
-.nav-links a:hover::after, .dropdown-parent:hover::after {
-  width: 100%;
-}
-
-/* Dropdown Menu */
 .dropdown-menu {
+  display: none;
   position: absolute;
   top: 100%;
   left: 0;
   background-color: white;
-  min-width: 200px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
+  min-width: 250px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
   padding: 10px 0;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease;
-  z-index: 100;
+  z-index: 1000;
+  list-style: none;
 }
 
 .dropdown:hover .dropdown-menu {
-  opacity: 1;
-  visibility: visible;
+  display: block;
 }
 
 .dropdown-menu li {
   padding: 8px 20px;
+  white-space: nowrap;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f5f5f5;
 }
 
 .dropdown-menu a {
   display: block;
-  font-size: 0.9rem;
-  white-space: nowrap;
+  color: #333;
 }
 
 .dropdown-menu a:hover {
-  color: #0061ff;
-  background-color: #f5f5f5;
+  color: #000;
 }
+
+
 
 
 
