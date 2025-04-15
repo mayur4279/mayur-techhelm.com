@@ -131,7 +131,7 @@ body, html {
   padding: 10px 0;
   z-index: 1000;
   list-style: none;
-  animation: fadeIn 0.2s ease-out;
+  /* animation: fadeIn 0.2s ease-out; */
 }
 
 .dropdown:hover .dropdown-menu {
