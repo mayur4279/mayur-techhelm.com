@@ -21,9 +21,6 @@ const AboutUs = () => {
 
 
 
-
-
-
 {/* Navigation Bar */}
 <section className="Navbar">
   <div className="logo">
