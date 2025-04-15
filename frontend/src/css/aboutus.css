@@ -1,4 +1,113 @@
 
+/* Base Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Top Bar - More compact */
+.top-bar {
+  background-color: #26bed2;
+  color: white;
+  padding: 6px 16px; /* Reduced padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px; /* Smaller font */
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  display: flex;
+  gap: 10px; /* Reduced gap */
+  flex-wrap: wrap;
+}
+
+.contact-info span {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Compact Navbar */
+.Navbar {
+  background-color: white;
+  padding: 10px 16px; /* Reduced padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Lighter shadow */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 50px; /* Fixed height */
+}
+
+/* Updated Logo Colors - More professional teal/blue scheme */
+.logo {
+  font-size: 22px; /* Slightly smaller */
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.logo-ibn {
+  color: #1a5276; /* Dark blue */
+}
+
+.logo-green {
+  color: #26bed2; /* Teal to match top bar */
+}
+
+/* Compact Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 18px; /* Reduced gap */
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav-links a, .dropdown-parent {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px; /* Smaller font */
+  font-weight: 500;
+  padding: 4px 0; /* Reduced padding */
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover, 
+.dropdown-parent:hover {
+  color: #1a5276; /* Dark blue on hover */
+}
+
+/* Compact Dropdowns */
+.dropdown-menu {
+  min-width: 220px; /* Slightly narrower */
+  padding: 8px 0; /* Less padding */
+}
+
+.dropdown-menu li {
+  padding: 6px 16px; /* Tighter padding */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .Navbar {
+    padding: 8px 12px;
+    height: auto;
+  }
+  
+  .logo {
+    font-size: 20px;
+  }
+  
+  .top-bar {
+    padding: 4px 12px;
+    font-size: 12px;
+  }
+}
 
 
 
