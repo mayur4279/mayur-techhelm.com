@@ -166,7 +166,7 @@ body, html {
   gap: 4px;
 }
 
-.dropdown-parent::after {
+/* .dropdown-parent::after {
   content: "▼";
   font-size: 10px;
   margin-left: 4px;
@@ -176,7 +176,7 @@ body, html {
   width: auto;
   height: auto;
   transition: transform 0.2s ease;
-}
+} */
 
 .dropdown:hover .dropdown-parent::after {
   transform: rotate(180deg);
