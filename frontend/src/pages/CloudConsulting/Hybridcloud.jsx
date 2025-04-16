@@ -71,28 +71,43 @@ function Home() {
         </ul>
       </nav>
 
-      <div className="hybrid-container">
-      <section className="hybrid-hero">
-        <h1>Hybrid Cloud Solutions</h1>
-        <p className="breadcrumb">
-          <span>🏠 Home</span> &gt; <span>Cloud Consulting Services</span> &gt; <span>Hybrid Cloud</span>
-        </p>
-        <button className="consultation-btn">Schedule Free Consultation</button>
-      </section>
 
-      <section className="hybrid-content">
-        <h2 className="section-title">Hybrid Cloud Services</h2>
-        <div className="hybrid-description">
-          <p>
-            Harness the flexibility and scalability of the cloud while maintaining control over your critical workloads with our <strong>Hybrid Cloud Solutions</strong>. We combine the best of public and private cloud infrastructures to create a seamless, secure, and agile environment tailored to your business needs.
+
+
+      <div className="hybrid-container">
+        <section className="hybrid-hero">
+          <h1>Hybrid Cloud Solutions</h1>
+          <p className="breadcrumb">
+            <span>🏠 Home</span> &gt; <span>Cloud Consulting Services</span> &gt; <span>Hybrid Cloud</span>
           </p>
-          <p>
-            Our experts design hybrid strategies that ensure business continuity, support legacy systems, and enable cloud-native innovation. Whether you're migrating existing workloads, building a cloud landing zone, or optimizing your infrastructure, our <strong>Hybrid Cloud services</strong> provide the flexibility and resilience required for modern enterprises.
-          </p>
-          <p>
-            Benefit from seamless integration, centralized management, and end-to-end visibility across all environments. With robust security protocols and compliance support, we empower your business to innovate without compromise.
-          </p>
-        </div>
+          <button className="consultation-btn">Schedule Free Consultation</button>
+        </section>
+
+        <section className="hybrid-content">
+          <h2 className="section-title">Hybrid Cloud Services</h2>
+          
+          {/* Split screen section */}
+          <div className="split-screen">
+            <div className="image-side">
+              <img src={hybridImage} alt="Hybrid Cloud Architecture" className="hybrid-image" />
+            </div>
+            <div className="text-side">
+              <div className="hybrid-description">
+                <p>
+                  Harness the flexibility and scalability of the cloud while maintaining control over your critical workloads with our <strong>Hybrid Cloud Solutions</strong>. We combine the best of public and private cloud infrastructures to create a seamless, secure, and agile environment tailored to your business needs.
+                </p>
+                <p>
+                  Our experts design hybrid strategies that ensure business continuity, support legacy systems, and enable cloud-native innovation. Whether you're migrating existing workloads, building a cloud landing zone, or optimizing your infrastructure, our <strong>Hybrid Cloud services</strong> provide the flexibility and resilience required for modern enterprises.
+                </p>
+                <p>
+                  Benefit from seamless integration, centralized management, and end-to-end visibility across all environments. With robust security protocols and compliance support, we empower your business to innovate without compromise.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
 
         <div className="hybrid-drivers">
           <h3 className="drivers-title">Key Drivers For <span>Hybrid Cloud</span> Adoption</h3>
@@ -123,7 +138,7 @@ function Home() {
 
 
 
-    
+
     </div>
   );
 }

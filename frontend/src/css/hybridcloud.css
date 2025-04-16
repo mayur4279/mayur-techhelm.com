@@ -83,3 +83,40 @@
 .driver-icon {
   font-size: 24px;
 }
+
+
+
+
+/* Updated CSS additions */
+.split-screen {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.image-side, .text-side {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hybrid-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .split-screen {
+    flex-direction: column;
+  }
+  
+  .image-side, .text-side {
+    flex: none;
+    width: 100%;
+  }
+}
+
+/* Rest of your existing CSS remains the same */
