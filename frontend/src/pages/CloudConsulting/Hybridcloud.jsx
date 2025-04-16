@@ -6,6 +6,9 @@ import hybridImage from '../../assets/hybrid-cloud.jpg'; // Adjust path as neede
 function Home() {
   return (
 
+    <div className="hybrid-cloud-container">
+
+
     <div className="Home Container">
         
         <div className="top-bar"> 
@@ -15,6 +18,7 @@ function Home() {
           <span>sales@helmbytes.com </span>    
         </div>
         </div>
+    </div> 
 
 
 {/* Navigation Bar */}
