@@ -87,7 +87,7 @@ function Home() {
 
 
         <section className="hybrid-content">
-          <h3 className="section-title">Hybrid Cloud Services</h3>
+          <h2 className="section-title">Hybrid Cloud Services</h2>
           
           {/* Split screen section */}
           <div className="split-screen">
