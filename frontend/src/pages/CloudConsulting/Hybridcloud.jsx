@@ -1,6 +1,7 @@
 // import { motion } from 'framer-motion';
 import  '../../css/hybridcloud.css'
 import { Link } from 'react-router-dom';
+import hybridImage from '../../assets/hybrid-cloud.jpg'; // Adjust path as needed
 
 function Home() {
   return (
