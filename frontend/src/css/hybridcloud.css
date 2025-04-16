@@ -120,3 +120,19 @@
 }
 
 /* Rest of your existing CSS remains the same */
+
+
+.consultation-btn, 
+a.consultation-btn {
+  display: inline-block;
+  background: white;
+  color: #2e2d81;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline from link */
+  text-align: center;
+  /* Add any other button styles you need */
+}
