@@ -179,6 +179,9 @@ function Home() {
 
 
 
+
+
+
       <div className="links-section">
       <div className="links-container">
         {/* Consultancy Section */}
@@ -193,9 +196,6 @@ function Home() {
           <div className="link-item">➔ Cloud lift & shift migration </div>
 
         </div>
-
-
-
 
         {/* Tech Support Section */}
         <div className="links-column">
@@ -234,6 +234,9 @@ function Home() {
         </div>
       </div>
     </div>
+
+
+
 
 
 
