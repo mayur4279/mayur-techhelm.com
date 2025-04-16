@@ -73,58 +73,56 @@ function Home() {
 
 
 
+<div className="hybrid-container">
+      <section className="hybrid-hero">
+        <h1>Hybrid Cloud Solutions</h1>
+        <p className="breadcrumb">
+          <span>🏠 Home</span> &gt; <span>Cloud Consulting Services</span> &gt; <span>Hybrid Cloud</span>
+        </p>
+        <button className="consultation-btn">Schedule Free Consultation</button>
+      </section>
 
-<div className="hybrid-cloud-simple">
-  <div className="header">
-    <div className="logo">
-      <img src="cloud-icon.png" alt="Cloud Icon" />
-      <h2>Hybrid Cloud Dashboard</h2>
+      <section className="hybrid-content">
+        <h2 className="section-title">Hybrid Cloud Services</h2>
+        <div className="hybrid-description">
+          <p>
+            Harness the flexibility and scalability of the cloud while maintaining control over your critical workloads with our <strong>Hybrid Cloud Solutions</strong>. We combine the best of public and private cloud infrastructures to create a seamless, secure, and agile environment tailored to your business needs.
+          </p>
+          <p>
+            Our experts design hybrid strategies that ensure business continuity, support legacy systems, and enable cloud-native innovation. Whether you're migrating existing workloads, building a cloud landing zone, or optimizing your infrastructure, our <strong>Hybrid Cloud services</strong> provide the flexibility and resilience required for modern enterprises.
+          </p>
+          <p>
+            Benefit from seamless integration, centralized management, and end-to-end visibility across all environments. With robust security protocols and compliance support, we empower your business to innovate without compromise.
+          </p>
+        </div>
+
+        <div className="hybrid-drivers">
+          <h3 className="drivers-title">Key Drivers For <span>Hybrid Cloud</span> Adoption</h3>
+          <div className="driver-list">
+            <div className="driver-item">
+              <div className="driver-icon">☁️</div>
+              <div>
+                <strong>Scalability:</strong> Instantly scale workloads across cloud and on-prem environments.
+              </div>
+            </div>
+            <div className="driver-item">
+              <div className="driver-icon">🔐</div>
+              <div>
+                <strong>Security:</strong> Maintain control of sensitive data with private infrastructure.
+              </div>
+            </div>
+            <div className="driver-item">
+              <div className="driver-icon">⚙️</div>
+              <div>
+                <strong>Flexibility:</strong> Run applications where they perform best—on-premises or in the cloud.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  </div>
-  
-  <div className="cloud-status">
-    <div className="public-cloud">
-      <h3>Public Cloud</h3>
-      <div className="resource">
-        <div className="resource-name">AWS Production</div>
-        <div className="resource-status active">Active</div>
-      </div>
-      <div className="resource">
-        <div className="resource-name">Azure Dev</div>
-        <div className="resource-status active">Active</div>
-      </div>
-    </div>
-    
-    <div className="private-cloud">
-      <h3>Private Cloud</h3>
-      <div className="resource">
-        <div className="resource-name">On-Premise Servers</div>
-        <div className="resource-status warning">High Load</div>
-      </div>
-    </div>
-  </div>
-  
-  <div className="connections">
-    <h3>Connections</h3>
-    <div className="connection-line">
-      <div className="connection-dot start"></div>
-      <div className="connection-line-middle"></div>
-      <div className="connection-dot end"></div>
-      <span>1Gbps</span>
-    </div>
-  </div>
-  
-  <div className="stats">
-    <div className="stat-box">
-      <h4>CPU Usage</h4>
-      <div className="stat-value">65%</div>
-    </div>
-    <div className="stat-box">
-      <h4>Memory</h4>
-      <div className="stat-value">45%</div>
-    </div>
-  </div>
-</div>
+
+
 
 
 

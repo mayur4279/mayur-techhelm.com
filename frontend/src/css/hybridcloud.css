@@ -1,122 +1,85 @@
-/* Font imports */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
-
-/* Base Styles */
-.about-us-container {
-  font-family: 'Poppins', sans-serif;
+.hybrid-container {
+  font-family: 'Segoe UI', sans-serif;
   color: #333;
+}
+
+.hybrid-hero {
+  background-color: #2e2d81;
+  color: white;
+  text-align: center;
+  padding: 60px 20px 30px;
+}
+
+.hybrid-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.consultation-btn {
+  background: white;
+  color: #2e2d81;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hybrid-content {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #2e2d81;
+}
+
+.hybrid-description p {
+  margin-bottom: 15px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
-
-
-
-.hybrid-cloud-simple {
-  font-family: Arial, sans-serif;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background: #f5f7fa;
+.hybrid-drivers {
+  margin-top: 40px;
 }
 
-.header {
+.drivers-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #2e2d81;
+}
+
+.drivers-title span {
+  color: #1bbf73;
+}
+
+.driver-list {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo img {
-  width: 40px;
-  margin-right: 15px;
-}
-
-.cloud-status {
-  display: flex;
-  gap: 20px;
-  margin-bottom: 30px;
-}
-
-.public-cloud, .private-cloud {
-  flex: 1;
-  background: white;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.resource {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0;
-  border-bottom: 1px solid #eee;
-}
-
-.resource-status {
-  padding: 3px 8px;
-  border-radius: 4px;
-  font-size: 0.8em;
-}
-
-.active {
-  background: #d4edda;
-  color: #155724;
-}
-
-.warning {
-  background: #fff3cd;
-  color: #856404;
-}
-
-.connections {
-  background: white;
-  padding: 15px;
-  border-radius: 8px;
-  margin-bottom: 30px;
-}
-
-.connection-line {
-  display: flex;
-  align-items: center;
-  margin: 15px 0;
-}
-
-.connection-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #4e73df;
-}
-
-.connection-line-middle {
-  height: 2px;
-  background: #4e73df;
-  flex-grow: 1;
-}
-
-.stats {
-  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
-.stat-box {
-  flex: 1;
-  background: white;
-  padding: 15px;
+.driver-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background: #f8f9fa;
+  padding: 15px 20px;
+  border-left: 5px solid #1bbf73;
   border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.stat-value {
+.driver-icon {
   font-size: 24px;
-  font-weight: bold;
-  color: #4e73df;
-  margin-top: 10px;
 }
