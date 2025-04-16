@@ -88,9 +88,7 @@ function Home() {
           
           {/* Split screen section */}
           <div className="split-screen">
-            <div className="image-side">
-              <img src={hybridImage} alt="Hybrid Cloud Architecture" className="hybrid-image" />
-            </div>
+
             <div className="text-side">
               <div className="hybrid-description">
                 <p>
@@ -104,9 +102,12 @@ function Home() {
                 </p>
               </div>
             </div>
+
+            <div className="image-side">
+              <img src={hybridImage} alt="Hybrid Cloud Architecture" className="hybrid-image" />
+            </div>
+
           </div>
-
-
 
 
         <div className="hybrid-drivers">
