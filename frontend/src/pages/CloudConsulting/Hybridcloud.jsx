@@ -80,7 +80,10 @@ function Home() {
           <p className="breadcrumb">
             <span>🏠 Home</span> &gt; <span>Cloud Consulting Services</span> &gt; <span>Hybrid Cloud</span>
           </p>
-          <button className="consultation-btn">Schedule Free Consultation</button>
+
+          <Link to="/contact-us" className="consultation-btn">
+  Schedule Free Consultation
+</Link>          
         </section>
 
         <section className="hybrid-content">
