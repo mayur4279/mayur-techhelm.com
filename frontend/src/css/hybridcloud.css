@@ -96,12 +96,12 @@
 }
 
 .image-side, .text-side {
-  padding: 12px;
   flex: 1;
   min-width: 300px;
 }
 
 .hybrid-image {
+  padding: 34px;
   width: 100%;
   height: auto;
   border-radius: 8px;
