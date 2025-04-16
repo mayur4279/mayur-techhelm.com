@@ -1,85 +1,40 @@
-.hybrid-container {
-  font-family: 'Segoe UI', sans-serif;
-  color: #333;
+.hybrid-split {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 30px;
+  align-items: center;
 }
 
-.hybrid-hero {
-  background-color: #2e2d81;
-  color: white;
-  text-align: center;
-  padding: 60px 20px 30px;
+.hybrid-text {
+  flex: 1;
+  min-width: 300px;
 }
 
-.hybrid-hero h1 {
-  font-size: 36px;
-  margin-bottom: 10px;
-}
-
-.breadcrumb {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-.consultation-btn {
-  background: white;
-  color: #2e2d81;
-  padding: 10px 25px;
-  border-radius: 30px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.hybrid-content {
-  padding: 60px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.section-title {
-  text-align: center;
-  font-size: 28px;
-  margin-bottom: 30px;
-  font-weight: 700;
-  color: #2e2d81;
-}
-
-.hybrid-description p {
-  margin-bottom: 15px;
+.hybrid-text p {
   font-size: 16px;
+  margin-bottom: 15px;
   line-height: 1.6;
 }
 
-.hybrid-drivers {
-  margin-top: 40px;
+.hybrid-text ul {
+  padding-left: 20px;
+  margin-top: 10px;
 }
 
-.drivers-title {
-  font-size: 22px;
-  margin-bottom: 20px;
-  color: #2e2d81;
+.hybrid-text li {
+  margin-bottom: 10px;
 }
 
-.drivers-title span {
-  color: #1bbf73;
+.hybrid-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
 }
 
-.driver-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.driver-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 15px;
-  background: #f8f9fa;
-  padding: 15px 20px;
-  border-left: 5px solid #1bbf73;
-  border-radius: 8px;
-}
-
-.driver-icon {
-  font-size: 24px;
+.hybrid-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }

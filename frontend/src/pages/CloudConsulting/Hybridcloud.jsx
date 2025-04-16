@@ -84,16 +84,25 @@ function Home() {
 
       <section className="hybrid-content">
         <h2 className="section-title">Hybrid Cloud Services</h2>
-        <div className="hybrid-description">
-          <p>
-            Harness the flexibility and scalability of the cloud while maintaining control over your critical workloads with our <strong>Hybrid Cloud Solutions</strong>. We combine the best of public and private cloud infrastructures to create a seamless, secure, and agile environment tailored to your business needs.
-          </p>
-          <p>
-            Our experts design hybrid strategies that ensure business continuity, support legacy systems, and enable cloud-native innovation. Whether you're migrating existing workloads, building a cloud landing zone, or optimizing your infrastructure, our <strong>Hybrid Cloud services</strong> provide the flexibility and resilience required for modern enterprises.
-          </p>
-          <p>
-            Benefit from seamless integration, centralized management, and end-to-end visibility across all environments. With robust security protocols and compliance support, we empower your business to innovate without compromise.
-          </p>
+        
+        <div className="hybrid-split">
+          <div className="hybrid-text">
+            <p>
+              Unlock agility and control with <strong>Hybrid Cloud</strong> solutions that blend public cloud scalability with private infrastructure security. We help you design, deploy, and manage hybrid strategies that support innovation while preserving legacy systems.
+            </p>
+            <p>
+              With seamless integration and centralized management, our Hybrid Cloud services empower your business with flexibility, business continuity, and governance across environments.
+            </p>
+            <ul>
+              <li><strong>✔ Scalability</strong>: Dynamically extend resources across cloud and on-prem.</li>
+              <li><strong>✔ Data Sovereignty</strong>: Keep critical data on-prem while using cloud benefits.</li>
+              <li><strong>✔ Business Continuity</strong>: Ensure uptime across hybrid deployments.</li>
+            </ul>
+          </div>
+
+          <div className="hybrid-image">
+            <img src={hybridImage} alt="Hybrid Cloud Architecture" />
+          </div>
         </div>
 
         <div className="hybrid-drivers">
@@ -121,11 +130,6 @@ function Home() {
         </div>
       </section>
     </div>
-
-
-
-
-
 
 
 
