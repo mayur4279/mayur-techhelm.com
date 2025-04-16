@@ -74,6 +74,63 @@ function Home() {
 
 
 
+<div className="hybrid-cloud-simple">
+  <div className="header">
+    <div className="logo">
+      <img src="cloud-icon.png" alt="Cloud Icon" />
+      <h2>Hybrid Cloud Dashboard</h2>
+    </div>
+  </div>
+  
+  <div className="cloud-status">
+    <div className="public-cloud">
+      <h3>Public Cloud</h3>
+      <div className="resource">
+        <div className="resource-name">AWS Production</div>
+        <div className="resource-status active">Active</div>
+      </div>
+      <div className="resource">
+        <div className="resource-name">Azure Dev</div>
+        <div className="resource-status active">Active</div>
+      </div>
+    </div>
+    
+    <div className="private-cloud">
+      <h3>Private Cloud</h3>
+      <div className="resource">
+        <div className="resource-name">On-Premise Servers</div>
+        <div className="resource-status warning">High Load</div>
+      </div>
+    </div>
+  </div>
+  
+  <div className="connections">
+    <h3>Connections</h3>
+    <div className="connection-line">
+      <div className="connection-dot start"></div>
+      <div className="connection-line-middle"></div>
+      <div className="connection-dot end"></div>
+      <span>1Gbps</span>
+    </div>
+  </div>
+  
+  <div className="stats">
+    <div className="stat-box">
+      <h4>CPU Usage</h4>
+      <div className="stat-value">65%</div>
+    </div>
+    <div className="stat-box">
+      <h4>Memory</h4>
+      <div className="stat-value">45%</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
 </div>
   );
 } 
