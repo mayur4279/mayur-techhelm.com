@@ -86,26 +86,35 @@
 
 
 
-
-/* Updated CSS additions */
+/* Updated CSS for centered image */
 .split-screen {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
   margin-bottom: 40px;
+  align-items: center; /* This vertically centers both sides */
 }
 
-.image-side, .text-side {
+.image-side {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center; /* Horizontally centers the image */
+  align-items: center; /* Vertically centers the image */
+}
+
+.text-side {
   flex: 1;
   min-width: 300px;
 }
 
 .hybrid-image {
-  padding: 34px;
-  width: 100%;
+  max-width: 100%;
   height: auto;
+  max-height: 400px; /* Adjust as needed */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: contain; /* Ensures image maintains aspect ratio */
 }
 
 /* For smaller screens */
@@ -118,9 +127,11 @@
     flex: none;
     width: 100%;
   }
+  
+  .hybrid-image {
+    max-height: 300px; /* Smaller max-height for mobile */
+  }
 }
-
-/* Rest of your existing CSS remains the same */
 
 
 .consultation-btn, 
