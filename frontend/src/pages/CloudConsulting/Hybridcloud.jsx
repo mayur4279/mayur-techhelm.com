@@ -81,9 +81,7 @@ function Home() {
             <span>🏠 Home</span> &gt; <span>Cloud Consulting Services</span> &gt; <span>Hybrid Cloud</span>
           </p>
 
-          <Link to="/contact-us" className="consultation-btn">
-  Schedule Free Consultation
-</Link>          
+          <Link to="/contact-us" className="consultation-btn"> Schedule Free Consultation</Link>          
         </section>
 
 
