@@ -1,40 +1,85 @@
-.hybrid-split {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2.5rem;
-  margin-top: 1.875rem;
-  align-items: center;
+.hybrid-container {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
 }
 
-.hybrid-text {
-  flex: 1;
-  min-width: 18.75rem;
+.hybrid-hero {
+  background-color: #2e2d81;
+  color: white;
+  text-align: center;
+  padding: 60px 20px 30px;
 }
 
-.hybrid-text p {
-  font-size: 1rem;
-  margin-bottom: 0.9375rem;
+.hybrid-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.consultation-btn {
+  background: white;
+  color: #2e2d81;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hybrid-content {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #2e2d81;
+}
+
+.hybrid-description p {
+  margin-bottom: 15px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
-.hybrid-text ul {
-  padding-left: 1.25rem;
-  margin-top: 0.625rem;
+.hybrid-drivers {
+  margin-top: 40px;
 }
 
-.hybrid-text li {
-  margin-bottom: 0.625rem;
+.drivers-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #2e2d81;
 }
 
-.hybrid-image {
-  flex: 1;
-  min-width: 18.75rem;
-  text-align: center;
+.drivers-title span {
+  color: #1bbf73;
 }
 
-.hybrid-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 0.625rem;
-  box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.1);
+.driver-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.driver-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background: #f8f9fa;
+  padding: 15px 20px;
+  border-left: 5px solid #1bbf73;
+  border-radius: 8px;
+}
+
+.driver-icon {
+  font-size: 24px;
 }

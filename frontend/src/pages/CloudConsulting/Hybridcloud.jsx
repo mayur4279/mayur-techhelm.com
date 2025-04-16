@@ -71,64 +71,59 @@ function Home() {
         </ul>
       </nav>
 
-      {/* Main Content Section */}
       <div className="hybrid-container">
-        <section className="hybrid-hero">
-          <h1>Hybrid Cloud Solutions</h1>
-          <p className="breadcrumb">
-            <span>🏠 Home</span> &gt; <span>Cloud Consulting Services</span> &gt; <span>Hybrid Cloud</span>
+      <section className="hybrid-hero">
+        <h1>Hybrid Cloud Solutions</h1>
+        <p className="breadcrumb">
+          <span>🏠 Home</span> &gt; <span>Cloud Consulting Services</span> &gt; <span>Hybrid Cloud</span>
+        </p>
+        <button className="consultation-btn">Schedule Free Consultation</button>
+      </section>
+
+      <section className="hybrid-content">
+        <h2 className="section-title">Hybrid Cloud Services</h2>
+        <div className="hybrid-description">
+          <p>
+            Harness the flexibility and scalability of the cloud while maintaining control over your critical workloads with our <strong>Hybrid Cloud Solutions</strong>. We combine the best of public and private cloud infrastructures to create a seamless, secure, and agile environment tailored to your business needs.
           </p>
-          <button className="consultation-btn">Schedule Free Consultation</button>
-        </section>
+          <p>
+            Our experts design hybrid strategies that ensure business continuity, support legacy systems, and enable cloud-native innovation. Whether you're migrating existing workloads, building a cloud landing zone, or optimizing your infrastructure, our <strong>Hybrid Cloud services</strong> provide the flexibility and resilience required for modern enterprises.
+          </p>
+          <p>
+            Benefit from seamless integration, centralized management, and end-to-end visibility across all environments. With robust security protocols and compliance support, we empower your business to innovate without compromise.
+          </p>
+        </div>
 
-        <section className="hybrid-content">
-          <h2 className="section-title">Hybrid Cloud Services</h2>
-          
-          <div className="hybrid-split">
-            <div className="hybrid-text">
-              <p>
-                Our <strong>Hybrid Cloud</strong> solutions combine public cloud flexibility with private infrastructure security, delivering the perfect balance for modern businesses. We specialize in creating tailored hybrid strategies that drive innovation while maintaining existing systems.
-              </p>
-              <p>
-                Experience seamless integration and unified management with our Hybrid Cloud services, designed to provide operational flexibility, continuous availability, and comprehensive governance across all environments.
-              </p>
-              <ul>
-                <li><strong>✔ Elastic Scalability</strong>: Expand resources effortlessly across cloud and on-premises environments</li>
-                <li><strong>✔ Data Control</strong>: Maintain sensitive data on-premises while leveraging cloud advantages</li>
-                <li><strong>✔ Resilient Operations</strong>: Guarantee uninterrupted service across hybrid deployments</li>
-              </ul>
-            </div>
-
-            <div className="hybrid-image">
-              <img src={hybridImage} alt="Hybrid Cloud Infrastructure" />
-            </div>
-          </div>
-
-          <div className="hybrid-drivers">
-            <h3 className="drivers-title">Why Businesses Choose <span>Hybrid Cloud</span></h3>
-            <div className="driver-list">
-              <div className="driver-item">
-                <div className="driver-icon">☁️</div>
-                <div>
-                  <strong>Adaptive Scaling:</strong> Effortlessly adjust resources across multiple environments
-                </div>
+        <div className="hybrid-drivers">
+          <h3 className="drivers-title">Key Drivers For <span>Hybrid Cloud</span> Adoption</h3>
+          <div className="driver-list">
+            <div className="driver-item">
+              <div className="driver-icon">☁️</div>
+              <div>
+                <strong>Scalability:</strong> Instantly scale workloads across cloud and on-prem environments.
               </div>
-              <div className="driver-item">
-                <div className="driver-icon">🔐</div>
-                <div>
-                  <strong>Enhanced Protection:</strong> Secure critical data with private infrastructure controls
-                </div>
+            </div>
+            <div className="driver-item">
+              <div className="driver-icon">🔐</div>
+              <div>
+                <strong>Security:</strong> Maintain control of sensitive data with private infrastructure.
               </div>
-              <div className="driver-item">
-                <div className="driver-icon">⚙️</div>
-                <div>
-                  <strong>Operational Freedom:</strong> Deploy applications in their optimal environment
-                </div>
+            </div>
+            <div className="driver-item">
+              <div className="driver-icon">⚙️</div>
+              <div>
+                <strong>Flexibility:</strong> Run applications where they perform best—on-premises or in the cloud.
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+    </div>
+
+
+
+
+    
     </div>
   );
 }
