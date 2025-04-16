@@ -32,6 +32,8 @@ function Home() {
   </div>
 
   <ul className="nav-links">
+  <li><Link to="/">Home</Link></li>
+
     <li><Link to="/About-us">About Us</Link></li>
     
     <li className="dropdown">
