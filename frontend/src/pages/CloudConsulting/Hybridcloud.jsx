@@ -37,15 +37,15 @@ function Home() {
           <li className="dropdown">
             <span className="dropdown-parent">Cloud Consulting Services</span>
             <ul className="dropdown-menu">
-              <li><Link to="/hybrid-cloud-soluctions">Hybrid Cloud Solutions</Link></li>
-              <li><Link to="/deployment-services">Deployment of Services</Link></li>
-              <li><Link to="/security-enhancement">Security Enhancement</Link></li>
-              <li><Link to="/troubleshooting">Troubleshooting</Link></li>
-              <li><Link to="/monitoring-support">24/7 Monitoring & Support</Link></li>
-              <li><Link to="/cost-optimization">Cost Optimization</Link></li>
-              <li><Link to="/lift-shift-migration">Lift & Shift Migration</Link></li>
-              <li><Link to="/backup-recovery">Backup & Disaster Recovery</Link></li>
-              <li><Link to="/firewall-implementation">Firewall Implementation</Link></li>
+            <li><Link to="/hybrid-cloud-soluctions">Hybrid Cloud Solutions</Link></li>
+        <li><Link to="/deployment-services">Deployment of Services</Link></li>
+        <li><Link to="/monitoring-support">24/7 Monitoring & Support</Link></li>
+        <li><Link to="/cost-optimization">Cost Optimization</Link></li>
+        <li><Link to="/lift-shift-migration">Lift & Shift Migration</Link></li>
+        <li><Link to="/backup-recovery">Backup & Disaster Recovery</Link></li>
+        <li><Link to="/firewall-implementation">Firewall Implementation</Link></li>
+        <li><Link to="/security-enhancement">Security Enhancement</Link></li>
+        <li><Link to="/troubleshooting">Troubleshooting</Link></li>
             </ul>
           </li>
 
@@ -71,6 +71,9 @@ function Home() {
           <li><Link to="/contact-us">Contact Us</Link></li>
         </ul>
       </nav>
+
+
+
 
 
 
@@ -138,6 +141,8 @@ function Home() {
         </div>
       </section>
     </div>
+
+
 
 
 
