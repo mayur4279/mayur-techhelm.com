@@ -6,6 +6,14 @@ import AboutUs from './pages/Aboutus';
 import Contactus from './pages/Contactus'
 import HybridCloud from './pages/CloudConsulting/Hybridcloud' 
 import DeploymentServices from './pages/CloudConsulting/Deployment' 
+import Monitoring from './pages/CloudConsulting/Deployment' 
+import Costoptimization from './pages/CloudConsulting/Deployment' 
+import Migration from './pages/CloudConsulting/Deployment' 
+import BackupDR from './pages/CloudConsulting/Deployment' 
+import Firewall from './pages/CloudConsulting/Deployment' 
+import SecurityEnhancement from './pages/CloudConsulting/Deployment' 
+import Troubleshooting from './pages/CloudConsulting/Deployment' 
+
 
 function App() {
   return (
@@ -23,6 +31,13 @@ function App() {
             <Route path="/contact-us" element={<Contactus />} />
             <Route path="/hybrid-cloud-soluctions" element={<HybridCloud />} />
             <Route path="/deployment-services" element={<DeploymentServices />} />
+            <Route path="/monitoring-support" element={<Monitoring />} />
+            <Route path="/cost-optimization" element={<Costoptimization />} />
+            <Route path="/lift-shift-migration" element={<Migration />} />
+            <Route path="/backup-recovery" element={<BackupDR />} />
+            <Route path="/firewall-implementation" element={<Firewall />} />
+            <Route path="/security-enhancement" element={<SecurityEnhancement />} />
+            <Route path="/troubleshooting" element={<Troubleshooting />} />
 
       
           </Routes>
