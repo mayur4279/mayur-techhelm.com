@@ -4,7 +4,8 @@ import Home from './pages/Home';
 // import CloudConsulting from './pages/CloudConsulting';
 import AboutUs from './pages/Aboutus';  
 import Contactus from './pages/Contactus'
-import DeploymentServices from './pages/CloudConsulting/Deployment.jsx' 
+import HybridCloud from './pages/CloudConsulting/Hybridcloud' 
+import DeploymentServices from './pages/CloudConsulting/Deployment' 
 
 function App() {
   return (
