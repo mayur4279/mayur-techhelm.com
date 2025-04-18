@@ -43,7 +43,7 @@ function Home() {
         <li><Link to="/deployment-services">Deployment of Services</Link></li>
         <li><Link to="/monitoring-support">24/7 Monitoring & Support</Link></li>
         <li><Link to="/cost-optimization">Cost Optimization</Link></li>
-        <li><Link to="/lift-shift-migration">Lift & Shift Migration</Link></li>
+        <li><Link to="/migration">Lift & Shift Migration</Link></li>
         <li><Link to="/backup-recovery">Backup & Disaster Recovery</Link></li>
         <li><Link to="/firewall-implementation">Firewall Implementation</Link></li>
         <li><Link to="/security-enhancement">Security Enhancement</Link></li>
