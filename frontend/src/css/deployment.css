@@ -4,7 +4,7 @@
   }
   
   .deployment-hero {
-    background-color: #2a5f8a;
+    background-color: #2e2d81;
     color: white;
     text-align: center;
     padding: 60px 20px 30px;
@@ -20,6 +20,16 @@
     margin-bottom: 20px;
   }
   
+  .consultation-btn {
+    background: white;
+    color: #2e2d81;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
   .deployment-content {
     padding: 20px 10px;
     max-width: 1000px;
@@ -31,7 +41,7 @@
     font-size: 28px;
     margin-bottom: 30px;
     font-weight: 700;
-    color: #2a5f8a;
+    color: #2e2d81;
   }
   
   .deployment-description p {
@@ -47,11 +57,11 @@
   .benefits-title {
     font-size: 22px;
     margin-bottom: 20px;
-    color: #2a5f8a;
+    color: #2e2d81;
   }
   
   .benefits-title span {
-    color: #4caf50;
+    color: #1bbf73;
   }
   
   .benefit-list {
@@ -66,7 +76,7 @@
     gap: 15px;
     background: #f8f9fa;
     padding: 15px 20px;
-    border-left: 5px solid #4caf50;
+    border-left: 5px solid #1bbf73;
     border-radius: 8px;
   }
   
@@ -74,6 +84,7 @@
     font-size: 24px;
   }
   
+  /* Updated CSS for centered image */
   .split-screen {
     display: flex;
     flex-wrap: wrap;
@@ -104,26 +115,7 @@
     object-fit: contain;
   }
   
-  .consultation-btn, 
-  a.consultation-btn {
-    display: inline-block;
-    background: white;
-    color: #2a5f8a;
-    padding: 10px 25px;
-    border-radius: 30px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    transition: all 0.3s ease;
-  }
-  
-  .consultation-btn:hover {
-    background: #e3f2fd;
-    transform: translateY(-2px);
-  }
-  
+  /* For smaller screens */
   @media (max-width: 768px) {
     .split-screen {
       flex-direction: column;
@@ -137,4 +129,18 @@
     .deployment-image {
       max-height: 300px;
     }
+  }
+  
+  .consultation-btn, 
+  a.consultation-btn {
+    display: inline-block;
+    background: white;
+    color: #2e2d81;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
   }
