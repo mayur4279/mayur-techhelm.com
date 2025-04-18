@@ -4,7 +4,7 @@ import Home from './pages/Home';
 // import CloudConsulting from './pages/CloudConsulting';
 import AboutUs from './pages/Aboutus';  
 import Contactus from './pages/Contactus'
-import HybridCloud from './pages/CloudConsulting/Hybridcloud' 
+import DeploymentServices from './pages/CloudConsulting/Deployment.jsx' 
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
             <Route path="/About-us" element={<AboutUs />} />
             <Route path="/contact-us" element={<Contactus />} />
             <Route path="/hybrid-cloud-soluctions" element={<HybridCloud />} />
+            <Route path="/deployment-services" element={<DeploymentServices />} />
 
       
           </Routes>
