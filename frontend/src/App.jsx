@@ -6,13 +6,13 @@ import AboutUs from './pages/Aboutus';
 import Contactus from './pages/Contactus'
 import HybridCloud from './pages/CloudConsulting/Hybridcloud' 
 import DeploymentServices from './pages/CloudConsulting/Deployment' 
-import Monitoring from './pages/CloudConsulting/Deployment' 
-import Costoptimization from './pages/CloudConsulting/Deployment' 
-import Migration from './pages/CloudConsulting/Deployment' 
-import BackupDR from './pages/CloudConsulting/Deployment' 
-import Firewall from './pages/CloudConsulting/Deployment' 
-import SecurityEnhancement from './pages/CloudConsulting/Deployment' 
-import Troubleshooting from './pages/CloudConsulting/Deployment' 
+import Monitoring from './pages/CloudConsulting/Monitoring' 
+import Costoptimization from './pages/CloudConsulting/CostOptimization' 
+import Migration from './pages/CloudConsulting/Migration' 
+import BackupDR from './pages/CloudConsulting/Backup' 
+import Firewall from './pages/CloudConsulting/Firewall' 
+import SecurityEnhancement from './pages/CloudConsulting/SecurityEnhancement' 
+import Troubleshooting from './pages/CloudConsulting/Troubleshooting' 
 
 
 function App() {
