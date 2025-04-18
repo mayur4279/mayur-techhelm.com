@@ -1,6 +1,6 @@
 import '../../css/migration.css';
 import { Link } from 'react-router-dom';
-import Migration from '../../assets/migration.jpg';
+import MigraTion from '../../assets/migration.jpg';
 
 function Home() {
   return (
@@ -78,8 +78,6 @@ function Home() {
 
 
 
-
-
       <div className="monitoring-container">
       <section className="monitoring-hero">
         <h1>Server & Application Monitoring</h1>
@@ -108,7 +106,7 @@ function Home() {
           </div>
 
           <div className="image-side">
-            <img src={Migration} alt="Monitoring Dashboard" className="monitoring-image" />
+            <img src={MigraTion} alt="Monitoring Dashboard" className="monitoring-image" />
           </div>
         </div>
 
