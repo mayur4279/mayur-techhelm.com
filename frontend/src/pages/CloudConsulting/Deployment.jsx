@@ -1,4 +1,4 @@
-import '../../css/hybridcloud.css';
+import '../../css/deployment.css';
 import { Link } from 'react-router-dom';
 import deploymentImage from '../../assets/deployment.jpg';
 
