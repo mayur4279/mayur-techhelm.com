@@ -75,64 +75,6 @@ function Home() {
 
 
 
-
-
-
-      <div className="monitoring-container">
-      <section className="monitoring-hero">
-        <h1>Server & Application Monitoring</h1>
-        <p className="breadcrumb">
-          <span>🏠 Home</span> &gt; <span>Managed Services</span> &gt; <span>Monitoring</span>
-        </p>
-        <Link to="/contact-us" className="consultation-btn">Get Monitoring Demo</Link>          
-      </section>
-
-      <section className="monitoring-content">
-        <h2 className="section-title">24/7 Monitoring Services</h2>
-        
-        <div className="split-screen">
-          <div className="text-side">
-            <div className="monitoring-description">
-              <p>
-                Around-the-clock server and application monitoring is key to uptime. We utilize <strong>advanced observability tools</strong> and a proactive support team to detect anomalies, respond to alerts, and provide continuous technical assistance for smooth operations.
-              </p>
-              <p>
-                Our monitoring solutions provide real-time visibility into your infrastructure health, application performance, and security posture. With customizable dashboards and automated alerting, we help you <strong>prevent issues before they impact your users</strong>.
-              </p>
-              <p>
-                From infrastructure metrics to application traces and log analytics, we correlate data across your entire stack to provide actionable insights and reduce mean time to resolution.
-              </p>
-            </div>
-          </div>
-
-          <div className="image-side">
-            <img src={MigraTion} alt="Monitoring Dashboard" className="monitoring-image" />
-          </div>
-        </div>
-
-        <div className="monitoring-features">
-          <h3 className="features-title">Our Monitoring <span>Capabilities</span></h3>
-          <div className="feature-list">
-            <div className="feature-item">
-              <div className="feature-icon">📊</div>
-              <div>
-                <strong>Performance Metrics:</strong> Track CPU, memory, disk, network, and application KPIs in real-time.
-              </div>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">🚨</div>
-              <div>
-                <strong>Smart Alerts:</strong> Custom thresholds and AI-powered anomaly detection.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-
-
-
     <div className="migration-container">
       <section className="migration-hero">
         <h1>Lift & Shift Migration</h1>
