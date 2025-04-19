@@ -1,6 +1,6 @@
-import '../../css/monitoring.css';
+import '../../css/vapt.css';
 import { Link } from 'react-router-dom';
-import Monitoring from '../../assets/monitoring.jpg';
+import vaptImage from '../../assets/vapt.png';
 
 function Home() {
   return (
@@ -35,8 +35,8 @@ function Home() {
           <li><Link to="/About-us">About Us</Link></li>
           
           <li className="dropdown">
-    <span className="dropdown-parent">Cloud Consulting Services</span>
-      <ul className="dropdown-menu">
+            <span className="dropdown-parent">Cloud Consulting Services</span>
+            <ul className="dropdown-menu">
         <li><Link to="/hybrid-cloud-soluctions">Hybrid Cloud Solutions</Link></li>
         <li><Link to="/deployment-services">Deployment of Services</Link></li>
         <li><Link to="/monitoring-support">24/7 Monitoring & Support</Link></li>
@@ -47,7 +47,7 @@ function Home() {
         <li><Link to="/security-enhancement">Security Enhancement</Link></li>
         <li><Link to="/troubleshooting">Troubleshooting</Link></li>
       </ul>
-    </li>
+          </li>
 
           <li className="dropdown">
             <span className="dropdown-parent">Cyber Security Services</span>
@@ -79,57 +79,65 @@ function Home() {
 
 
 
-      <div className="monitoring-container">
-      <section className="monitoring-hero">
-        <h1>Server & Application Monitoring</h1>
+      <div className="vapt-container">
+      <section className="vapt-hero">
+        <h1>Vulnerability Assessment & Penetration Testing</h1>
         <p className="breadcrumb">
-          <span>🏠 Home</span> &gt; <span>Managed Services</span> &gt; <span>Monitoring</span>
+          <span>🏠 Home</span> &gt; <span>Cyber Security</span> &gt; <span>VAPT</span>
         </p>
-        <Link to="/contact-us" className="consultation-btn">Get Monitoring Demo</Link>          
+        <Link to="/contact-us" className="consultation-btn">Schedule Security Test</Link>          
       </section>
 
-      <section className="monitoring-content">
-        <h2 className="section-title">24/7 Monitoring Services</h2>
+      <section className="vapt-content">
+        <h2 className="section-title">Proactive Security Validation</h2>
         
         <div className="split-screen">
           <div className="text-side">
-            <div className="monitoring-description">
+            <div className="vapt-description">
               <p>
-                Around-the-clock server and application monitoring is key to uptime. We utilize <strong>advanced observability tools</strong> and a proactive support team to detect anomalies, respond to alerts, and provide continuous technical assistance for smooth operations.
+                Our comprehensive <strong>VAPT services</strong> identify and exploit vulnerabilities in your applications, networks, and infrastructure before attackers can. We simulate real-world attacks to uncover security weaknesses with proven methodologies.
               </p>
               <p>
-                Our monitoring solutions provide real-time visibility into your infrastructure health, application performance, and security posture. With customizable dashboards and automated alerting, we help you <strong>prevent issues before they impact your users</strong>.
+                Using both automated scanning tools and manual testing techniques, we provide <strong>actionable security reports</strong> with risk ratings and remediation guidance. Our tests cover OWASP Top 10 vulnerabilities, configuration flaws, and business logic errors.
               </p>
               <p>
-                From infrastructure metrics to application traces and log analytics, we correlate data across your entire stack to provide actionable insights and reduce mean time to resolution.
+                From web applications to cloud environments and IoT devices, we tailor our testing approach to your technology stack and compliance requirements (PCI DSS, ISO 27001, HIPAA).
               </p>
             </div>
           </div>
 
           <div className="image-side">
-            <img src={Monitoring} alt="Monitoring Dashboard" className="monitoring-image" />
+            <img src={vaptImage} alt="VAPT Testing Process" className="vapt-image" />
           </div>
         </div>
 
-        <div className="monitoring-features">
-          <h3 className="features-title">Our Monitoring <span>Capabilities</span></h3>
-          <div className="feature-list">
-            <div className="feature-item">
-              <div className="feature-icon">📊</div>
+        <div className="vapt-benefits">
+          <h3 className="benefits-title">Our VAPT <span>Methodology</span></h3>
+          <div className="benefit-list">
+            <div className="benefit-item">
+              <div className="benefit-icon">🔍</div>
               <div>
-                <strong>Performance Metrics:</strong> Track CPU, memory, disk, network, and application KPIs in real-time.
+                <strong>Discovery Phase:</strong> Asset identification and vulnerability scanning
               </div>
             </div>
-            <div className="feature-item">
-              <div className="feature-icon">🚨</div>
+            <div className="benefit-item">
+              <div className="benefit-icon">⚔️</div>
               <div>
-                <strong>Smart Alerts:</strong> Custom thresholds and AI-powered anomaly detection.
+                <strong>Exploitation:</strong> Ethical hacking to validate vulnerabilities
+              </div>
+            </div>
+            <div className="benefit-item">
+              <div className="benefit-icon">📑</div>
+              <div>
+                <strong>Reporting:</strong> Detailed findings with remediation roadmap
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
+
+
 
 
 

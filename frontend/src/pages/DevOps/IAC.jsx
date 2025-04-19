@@ -1,6 +1,6 @@
-import '../../css/monitoring.css';
+import '../../css/iac.css';
 import { Link } from 'react-router-dom';
-import Monitoring from '../../assets/monitoring.jpg';
+import iacImage from '../../assets/Infra-as-code.jpg';
 
 function Home() {
   return (
@@ -35,8 +35,8 @@ function Home() {
           <li><Link to="/About-us">About Us</Link></li>
           
           <li className="dropdown">
-    <span className="dropdown-parent">Cloud Consulting Services</span>
-      <ul className="dropdown-menu">
+            <span className="dropdown-parent">Cloud Consulting Services</span>
+            <ul className="dropdown-menu">
         <li><Link to="/hybrid-cloud-soluctions">Hybrid Cloud Solutions</Link></li>
         <li><Link to="/deployment-services">Deployment of Services</Link></li>
         <li><Link to="/monitoring-support">24/7 Monitoring & Support</Link></li>
@@ -47,7 +47,7 @@ function Home() {
         <li><Link to="/security-enhancement">Security Enhancement</Link></li>
         <li><Link to="/troubleshooting">Troubleshooting</Link></li>
       </ul>
-    </li>
+          </li>
 
           <li className="dropdown">
             <span className="dropdown-parent">Cyber Security Services</span>
@@ -78,58 +78,69 @@ function Home() {
 
 
 
+    
 
-      <div className="monitoring-container">
-      <section className="monitoring-hero">
-        <h1>Server & Application Monitoring</h1>
+      <div className="iac-container">
+      <section className="iac-hero">
+        <h1>Infrastructure as Code</h1>
         <p className="breadcrumb">
-          <span>🏠 Home</span> &gt; <span>Managed Services</span> &gt; <span>Monitoring</span>
+          <span>🏠 Home</span> &gt; <span>DevOps</span> &gt; <span>IaC</span>
         </p>
-        <Link to="/contact-us" className="consultation-btn">Get Monitoring Demo</Link>          
+        <Link to="/contact-us" className="consultation-btn">Request IaC Consultation</Link>          
       </section>
 
-      <section className="monitoring-content">
-        <h2 className="section-title">24/7 Monitoring Services</h2>
+      <section className="iac-content">
+        <h2 className="section-title">Consistent, Version-Controlled Infrastructure</h2>
         
         <div className="split-screen">
           <div className="text-side">
-            <div className="monitoring-description">
+            <div className="iac-description">
               <p>
-                Around-the-clock server and application monitoring is key to uptime. We utilize <strong>advanced observability tools</strong> and a proactive support team to detect anomalies, respond to alerts, and provide continuous technical assistance for smooth operations.
+                Transform your infrastructure management with our <strong>Infrastructure as Code (IaC)</strong> solutions. We implement Terraform, AWS CDK, and Pulumi to define and provision cloud resources through code, eliminating manual configuration drift.
               </p>
               <p>
-                Our monitoring solutions provide real-time visibility into your infrastructure health, application performance, and security posture. With customizable dashboards and automated alerting, we help you <strong>prevent issues before they impact your users</strong>.
+                Our IaC implementations enable <strong>repeatable environment creation</strong>, change tracking through version control, and automated compliance checks. Manage entire cloud estates with the same rigor as application code.
               </p>
               <p>
-                From infrastructure metrics to application traces and log analytics, we correlate data across your entire stack to provide actionable insights and reduce mean time to resolution.
+                From development environments to production deployments, we create modular, reusable infrastructure components that accelerate provisioning while enforcing security and cost-optimization best practices.
               </p>
             </div>
           </div>
 
           <div className="image-side">
-            <img src={Monitoring} alt="Monitoring Dashboard" className="monitoring-image" />
+            <img src={iacImage} alt="Infrastructure as Code Workflow" className="iac-image" />
           </div>
         </div>
 
-        <div className="monitoring-features">
-          <h3 className="features-title">Our Monitoring <span>Capabilities</span></h3>
-          <div className="feature-list">
-            <div className="feature-item">
-              <div className="feature-icon">📊</div>
+        <div className="iac-benefits">
+          <h3 className="benefits-title">IaC <span>Advantages</span></h3>
+          <div className="benefit-list">
+            <div className="benefit-item">
+              <div className="benefit-icon">🔄</div>
               <div>
-                <strong>Performance Metrics:</strong> Track CPU, memory, disk, network, and application KPIs in real-time.
+                <strong>Environment Consistency:</strong> Identical staging and production setups
               </div>
             </div>
-            <div className="feature-item">
-              <div className="feature-icon">🚨</div>
+            <div className="benefit-item">
+              <div className="benefit-icon">⏱️</div>
               <div>
-                <strong>Smart Alerts:</strong> Custom thresholds and AI-powered anomaly detection.
+                <strong>Rapid Provisioning:</strong> Spin up entire environments in minutes
+              </div>
+            </div>
+            <div className="benefit-item">
+              <div className="benefit-icon">🔍</div>
+              <div>
+                <strong>Change Tracking:</strong> Full audit history of infrastructure modifications
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
+
+
+
+
 
 
 

@@ -1,6 +1,6 @@
-import '../../css/monitoring.css';
+import '../../css/kubernetes.css';
 import { Link } from 'react-router-dom';
-import Monitoring from '../../assets/monitoring.jpg';
+import k8sImage from '../../assets/kubernetes.jpeg';
 
 function Home() {
   return (
@@ -35,8 +35,8 @@ function Home() {
           <li><Link to="/About-us">About Us</Link></li>
           
           <li className="dropdown">
-    <span className="dropdown-parent">Cloud Consulting Services</span>
-      <ul className="dropdown-menu">
+            <span className="dropdown-parent">Cloud Consulting Services</span>
+            <ul className="dropdown-menu">
         <li><Link to="/hybrid-cloud-soluctions">Hybrid Cloud Solutions</Link></li>
         <li><Link to="/deployment-services">Deployment of Services</Link></li>
         <li><Link to="/monitoring-support">24/7 Monitoring & Support</Link></li>
@@ -47,7 +47,7 @@ function Home() {
         <li><Link to="/security-enhancement">Security Enhancement</Link></li>
         <li><Link to="/troubleshooting">Troubleshooting</Link></li>
       </ul>
-    </li>
+          </li>
 
           <li className="dropdown">
             <span className="dropdown-parent">Cyber Security Services</span>
@@ -79,57 +79,68 @@ function Home() {
 
 
 
-      <div className="monitoring-container">
-      <section className="monitoring-hero">
-        <h1>Server & Application Monitoring</h1>
+
+      <div className="k8s-container">
+      <section className="k8s-hero">
+        <h1>Kubernetes & Container Orchestration</h1>
         <p className="breadcrumb">
-          <span>🏠 Home</span> &gt; <span>Managed Services</span> &gt; <span>Monitoring</span>
+          <span>🏠 Home</span> &gt; <span>DevOps</span> &gt; <span>Containerization</span>
         </p>
-        <Link to="/contact-us" className="consultation-btn">Get Monitoring Demo</Link>          
+        <Link to="/contact-us" className="consultation-btn">Schedule Architecture Review</Link>          
       </section>
 
-      <section className="monitoring-content">
-        <h2 className="section-title">24/7 Monitoring Services</h2>
+      <section className="k8s-content">
+        <h2 className="section-title">Enterprise-Grade Container Management</h2>
         
         <div className="split-screen">
           <div className="text-side">
-            <div className="monitoring-description">
+            <div className="k8s-description">
               <p>
-                Around-the-clock server and application monitoring is key to uptime. We utilize <strong>advanced observability tools</strong> and a proactive support team to detect anomalies, respond to alerts, and provide continuous technical assistance for smooth operations.
+                We design and implement <strong>production-grade Kubernetes clusters</strong> that automate deployment, scaling, and management of containerized applications. Our solutions handle the complexity so you can focus on delivering value.
               </p>
               <p>
-                Our monitoring solutions provide real-time visibility into your infrastructure health, application performance, and security posture. With customizable dashboards and automated alerting, we help you <strong>prevent issues before they impact your users</strong>.
+                From EKS and AKS to on-premises deployments, we create <strong>resilient orchestration platforms</strong> with built-in observability, security hardening, and GitOps workflows. Our implementations support both stateless and stateful workloads.
               </p>
               <p>
-                From infrastructure metrics to application traces and log analytics, we correlate data across your entire stack to provide actionable insights and reduce mean time to resolution.
+                We optimize your container ecosystem with service meshes, ingress controllers, and auto-scaling configurations tailored to your application requirements and traffic patterns.
               </p>
             </div>
           </div>
 
           <div className="image-side">
-            <img src={Monitoring} alt="Monitoring Dashboard" className="monitoring-image" />
+            <img src={k8sImage} alt="Kubernetes Cluster Architecture" className="k8s-image" />
           </div>
         </div>
 
-        <div className="monitoring-features">
-          <h3 className="features-title">Our Monitoring <span>Capabilities</span></h3>
-          <div className="feature-list">
-            <div className="feature-item">
-              <div className="feature-icon">📊</div>
+        <div className="k8s-benefits">
+          <h3 className="benefits-title">Orchestration <span>Features</span></h3>
+          <div className="benefit-list">
+            <div className="benefit-item">
+              <div className="benefit-icon">⚖️</div>
               <div>
-                <strong>Performance Metrics:</strong> Track CPU, memory, disk, network, and application KPIs in real-time.
+                <strong>Auto-Scaling:</strong> Horizontal and vertical pod scaling based on demand
               </div>
             </div>
-            <div className="feature-item">
-              <div className="feature-icon">🚨</div>
+            <div className="benefit-item">
+              <div className="benefit-icon">🔒</div>
               <div>
-                <strong>Smart Alerts:</strong> Custom thresholds and AI-powered anomaly detection.
+                <strong>Security:</strong> Pod security policies, network policies, and RBAC
+              </div>
+            </div>
+            <div className="benefit-item">
+              <div className="benefit-icon">🔄</div>
+              <div>
+                <strong>GitOps:</strong> Declarative infrastructure managed through Git
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
+
+
+
+
 
 
 

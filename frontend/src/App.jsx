@@ -14,6 +14,15 @@ import Firewall from './pages/CloudConsulting/Firewall'
 import SecurityEnhancement from './pages/CloudConsulting/SecurityEnhancement' 
 import Troubleshooting from './pages/CloudConsulting/Troubleshooting' 
 
+import Vapt from './pages/CyberSecurity/Vapt' 
+
+import Cicd from './pages/DevOps/CICD' 
+import Iac from './pages/DevOps/IAC' 
+import Kubernetes from './pages/DevOps/Kubernetes' 
+import MonitoringLogging from './pages/DevOps/MonitoringDevops' 
+import AutomatedTesting from './pages/DevOps/AutomatedTesting' 
+import DevSecOps from './pages/DevOps/DevSecOps' 
+
 
 function App() {
   return (
@@ -40,6 +49,18 @@ function App() {
             <Route path="/troubleshooting" element={<Troubleshooting />} />
 
       
+
+            <Route path="/vapt-services" element={<Vapt />} />
+
+
+
+            <Route path="/ci-cd-pipeline" element={<Cicd />} />
+            <Route path="/infrastructure-as-code" element={<Iac />} />
+            <Route path="/kubernetes" element={<Kubernetes />} />
+            <Route path="/monitoring-logging" element={<MonitoringLogging />} />
+            <Route path="/automated-testing" element={<AutomatedTesting />} />
+            <Route path="/devsecops" element={<DevSecOps />} />
+
           </Routes>
         </div>
 

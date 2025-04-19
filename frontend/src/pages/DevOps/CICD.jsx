@@ -1,6 +1,6 @@
-import '../../css/monitoring.css';
+import '../../css/cicd.css';
 import { Link } from 'react-router-dom';
-import Monitoring from '../../assets/monitoring.jpg';
+import pipelineImage from '../../assets/CI-CD.png';
 
 function Home() {
   return (
@@ -35,8 +35,8 @@ function Home() {
           <li><Link to="/About-us">About Us</Link></li>
           
           <li className="dropdown">
-    <span className="dropdown-parent">Cloud Consulting Services</span>
-      <ul className="dropdown-menu">
+            <span className="dropdown-parent">Cloud Consulting Services</span>
+            <ul className="dropdown-menu">
         <li><Link to="/hybrid-cloud-soluctions">Hybrid Cloud Solutions</Link></li>
         <li><Link to="/deployment-services">Deployment of Services</Link></li>
         <li><Link to="/monitoring-support">24/7 Monitoring & Support</Link></li>
@@ -47,7 +47,7 @@ function Home() {
         <li><Link to="/security-enhancement">Security Enhancement</Link></li>
         <li><Link to="/troubleshooting">Troubleshooting</Link></li>
       </ul>
-    </li>
+          </li>
 
           <li className="dropdown">
             <span className="dropdown-parent">Cyber Security Services</span>
@@ -76,60 +76,65 @@ function Home() {
 
 
 
-
-
-
-      <div className="monitoring-container">
-      <section className="monitoring-hero">
-        <h1>Server & Application Monitoring</h1>
+      <div className="pipeline-container">
+      <section className="pipeline-hero">
+        <h1>CI/CD Pipeline Automation</h1>
         <p className="breadcrumb">
-          <span>🏠 Home</span> &gt; <span>Managed Services</span> &gt; <span>Monitoring</span>
+          <span>🏠 Home</span> &gt; <span>DevOps</span> &gt; <span>CI/CD</span>
         </p>
-        <Link to="/contact-us" className="consultation-btn">Get Monitoring Demo</Link>          
+        <Link to="/contact-us" className="consultation-btn">Get Pipeline Assessment</Link>          
       </section>
 
-      <section className="monitoring-content">
-        <h2 className="section-title">24/7 Monitoring Services</h2>
+      <section className="pipeline-content">
+        <h2 className="section-title">Streamlined Software Delivery</h2>
         
         <div className="split-screen">
           <div className="text-side">
-            <div className="monitoring-description">
+            <div className="pipeline-description">
               <p>
-                Around-the-clock server and application monitoring is key to uptime. We utilize <strong>advanced observability tools</strong> and a proactive support team to detect anomalies, respond to alerts, and provide continuous technical assistance for smooth operations.
+                We implement <strong>end-to-end CI/CD pipelines</strong> that automate your software delivery from commit to production. Our pipelines integrate building, testing, and deployment processes to accelerate releases while maintaining quality.
               </p>
               <p>
-                Our monitoring solutions provide real-time visibility into your infrastructure health, application performance, and security posture. With customizable dashboards and automated alerting, we help you <strong>prevent issues before they impact your users</strong>.
+                Using tools like Jenkins, GitHub Actions, and ArgoCD, we create <strong>reliable automation workflows</strong> that reduce manual errors and provide consistent deployment patterns across environments. Our solutions support both containerized and traditional applications.
               </p>
               <p>
-                From infrastructure metrics to application traces and log analytics, we correlate data across your entire stack to provide actionable insights and reduce mean time to resolution.
+                From simple build automation to advanced progressive delivery strategies, we optimize your pipeline for speed, security, and compliance with built-in quality gates and approval workflows.
               </p>
             </div>
           </div>
 
           <div className="image-side">
-            <img src={Monitoring} alt="Monitoring Dashboard" className="monitoring-image" />
+            <img src={pipelineImage} alt="CI/CD Pipeline Architecture" className="pipeline-image" />
           </div>
         </div>
 
-        <div className="monitoring-features">
-          <h3 className="features-title">Our Monitoring <span>Capabilities</span></h3>
-          <div className="feature-list">
-            <div className="feature-item">
-              <div className="feature-icon">📊</div>
+        <div className="pipeline-benefits">
+          <h3 className="benefits-title">Pipeline <span>Features</span></h3>
+          <div className="benefit-list">
+            <div className="benefit-item">
+              <div className="benefit-icon">⚡</div>
               <div>
-                <strong>Performance Metrics:</strong> Track CPU, memory, disk, network, and application KPIs in real-time.
+                <strong>Build Automation:</strong> Trigger builds on code commits with dependency caching
               </div>
             </div>
-            <div className="feature-item">
-              <div className="feature-icon">🚨</div>
+            <div className="benefit-item">
+              <div className="benefit-icon">🧪</div>
               <div>
-                <strong>Smart Alerts:</strong> Custom thresholds and AI-powered anomaly detection.
+                <strong>Test Integration:</strong> Automated unit, integration, and security testing
+              </div>
+            </div>
+            <div className="benefit-item">
+              <div className="benefit-icon">🚀</div>
+              <div>
+                <strong>Deployment Strategies:</strong> Blue/green, canary, and rolling deployments
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
+
+
 
 
 

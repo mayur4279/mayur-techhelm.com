@@ -1,6 +1,6 @@
-import '../../css/monitoring.css';
+import '../../css/monitoringdevops.css';
 import { Link } from 'react-router-dom';
-import Monitoring from '../../assets/monitoring.jpg';
+import monitoringImage from '../../assets/monitoringdevops.png';
 
 function Home() {
   return (
@@ -35,8 +35,8 @@ function Home() {
           <li><Link to="/About-us">About Us</Link></li>
           
           <li className="dropdown">
-    <span className="dropdown-parent">Cloud Consulting Services</span>
-      <ul className="dropdown-menu">
+            <span className="dropdown-parent">Cloud Consulting Services</span>
+            <ul className="dropdown-menu">
         <li><Link to="/hybrid-cloud-soluctions">Hybrid Cloud Solutions</Link></li>
         <li><Link to="/deployment-services">Deployment of Services</Link></li>
         <li><Link to="/monitoring-support">24/7 Monitoring & Support</Link></li>
@@ -47,7 +47,7 @@ function Home() {
         <li><Link to="/security-enhancement">Security Enhancement</Link></li>
         <li><Link to="/troubleshooting">Troubleshooting</Link></li>
       </ul>
-    </li>
+          </li>
 
           <li className="dropdown">
             <span className="dropdown-parent">Cyber Security Services</span>
@@ -81,55 +81,70 @@ function Home() {
 
       <div className="monitoring-container">
       <section className="monitoring-hero">
-        <h1>Server & Application Monitoring</h1>
+        <h1>Monitoring & Logging Solutions</h1>
         <p className="breadcrumb">
-          <span>🏠 Home</span> &gt; <span>Managed Services</span> &gt; <span>Monitoring</span>
+          <span>🏠 Home</span> &gt; <span>DevOps</span> &gt; <span>Observability</span>
         </p>
-        <Link to="/contact-us" className="consultation-btn">Get Monitoring Demo</Link>          
+        <Link to="/contact-us" className="consultation-btn">Request Demo</Link>          
       </section>
 
       <section className="monitoring-content">
-        <h2 className="section-title">24/7 Monitoring Services</h2>
+        <h2 className="section-title">Full-Stack Observability</h2>
         
         <div className="split-screen">
           <div className="text-side">
             <div className="monitoring-description">
               <p>
-                Around-the-clock server and application monitoring is key to uptime. We utilize <strong>advanced observability tools</strong> and a proactive support team to detect anomalies, respond to alerts, and provide continuous technical assistance for smooth operations.
+                We implement comprehensive <strong>Prometheus and Grafana</strong> solutions that provide real-time visibility into your applications and infrastructure. Our monitoring stacks collect metrics, logs, and traces for complete observability.
               </p>
               <p>
-                Our monitoring solutions provide real-time visibility into your infrastructure health, application performance, and security posture. With customizable dashboards and automated alerting, we help you <strong>prevent issues before they impact your users</strong>.
+                Our solutions feature <strong>custom dashboards</strong>, alerting rules, and anomaly detection to help you identify issues before they impact users. We configure exporters for all major technologies and custom applications.
               </p>
               <p>
-                From infrastructure metrics to application traces and log analytics, we correlate data across your entire stack to provide actionable insights and reduce mean time to resolution.
+                From infrastructure health to business KPIs, we create a unified view of your systems with intelligent alerting that reduces noise while ensuring critical issues get immediate attention.
               </p>
             </div>
           </div>
 
           <div className="image-side">
-            <img src={Monitoring} alt="Monitoring Dashboard" className="monitoring-image" />
+            <img src={monitoringImage} alt="Monitoring Dashboard Example" className="monitoring-image" />
           </div>
         </div>
 
         <div className="monitoring-features">
-          <h3 className="features-title">Our Monitoring <span>Capabilities</span></h3>
+          <h3 className="features-title">Observability <span>Components</span></h3>
           <div className="feature-list">
             <div className="feature-item">
               <div className="feature-icon">📊</div>
               <div>
-                <strong>Performance Metrics:</strong> Track CPU, memory, disk, network, and application KPIs in real-time.
+                <strong>Metrics Collection:</strong> Prometheus time-series monitoring with custom exporters
+              </div>
+            </div>
+            <div className="feature-item">
+              <div className="feature-icon">📈</div>
+              <div>
+                <strong>Visualization:</strong> Grafana dashboards with business and technical views
               </div>
             </div>
             <div className="feature-item">
               <div className="feature-icon">🚨</div>
               <div>
-                <strong>Smart Alerts:</strong> Custom thresholds and AI-powered anomaly detection.
+                <strong>Alerting:</strong> Smart notifications routed to appropriate teams
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
+
+
+
+
+
+
+
+
+
 
 
 
