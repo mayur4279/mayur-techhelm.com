@@ -1,6 +1,6 @@
 import '../../css/migration.css';
 import { Link } from 'react-router-dom';
-import MigraTion from '../../assets/migration.jpg';
+import migrationImage from '../../assets/migration.jpg';
 
 function Home() {
   return (
