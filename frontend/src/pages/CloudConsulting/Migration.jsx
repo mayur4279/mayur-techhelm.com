@@ -1,9 +1,12 @@
 import '../../css/migration.css';
 import { Link } from 'react-router-dom';
 import migrationImage from '../../assets/migration.jpg';
+import ContentLoader from '../../components/ContentLoader';
 
 function Home() {
   return (
+        <ContentLoader>
+    
     <div className="hybrid-cloud-container">
       {/* Top Bar Section */}
       <div className="Home Container">
@@ -199,6 +202,8 @@ function Home() {
 
 
     </div>
+        </ContentLoader>
+    
   );
 }
 

@@ -1,9 +1,12 @@
 import '../../css/monitoringdevops.css';
 import { Link } from 'react-router-dom';
 import monitoringImage from '../../assets/monitoringdevops.png';
+import ContentLoader from '../../components/ContentLoader';
 
 function Home() {
   return (
+        <ContentLoader>
+    
     <div className="hybrid-cloud-container">
       {/* Top Bar Section */}
       <div className="Home Container">
@@ -210,6 +213,8 @@ function Home() {
 
 
     </div>
+        </ContentLoader>
+    
   );
 }
 

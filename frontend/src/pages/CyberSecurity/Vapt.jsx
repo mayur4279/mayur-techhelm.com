@@ -1,9 +1,12 @@
 import '../../css/vapt.css';
 import { Link } from 'react-router-dom';
 import vaptImage from '../../assets/vapt.png';
+import ContentLoader from '../../components/ContentLoader';
 
 function Home() {
   return (
+        <ContentLoader>
+    
     <div className="hybrid-cloud-container">
       {/* Top Bar Section */}
       <div className="Home Container">
@@ -203,6 +206,8 @@ function Home() {
 
 
     </div>
+        </ContentLoader>
+    
   );
 }
 

@@ -1,9 +1,12 @@
 import '../../css/cicd.css';
 import { Link } from 'react-router-dom';
 import pipelineImage from '../../assets/CI-CD.png';
+import ContentLoader from '../../components/ContentLoader';
 
 function Home() {
   return (
+        <ContentLoader>
+    
     <div className="hybrid-cloud-container">
       {/* Top Bar Section */}
       <div className="Home Container">
@@ -200,6 +203,8 @@ function Home() {
 
 
     </div>
+        </ContentLoader>
+    
   );
 }
 

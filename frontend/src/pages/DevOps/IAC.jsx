@@ -1,9 +1,12 @@
 import '../../css/iac.css';
 import { Link } from 'react-router-dom';
 import iacImage from '../../assets/Infra-as-code.jpg';
+import ContentLoader from '../../components/ContentLoader';
 
 function Home() {
   return (
+        <ContentLoader>
+    
     <div className="hybrid-cloud-container">
       {/* Top Bar Section */}
       <div className="Home Container">
@@ -206,6 +209,8 @@ function Home() {
 
 
     </div>
+        </ContentLoader>
+    
   );
 }
 

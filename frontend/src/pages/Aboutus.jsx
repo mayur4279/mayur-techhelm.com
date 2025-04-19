@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Add this import
 import '../css/aboutus.css';
+import ContentLoader from '../../components/ContentLoader';
 
 const AboutUs = () => {
   return (
-
+    <ContentLoader>
 
 <div className="about-us-container">
 
@@ -228,6 +229,7 @@ const AboutUs = () => {
     </div>
 
 
+    </ContentLoader>
 
 
   );

@@ -1,9 +1,12 @@
 import '../../css/automatedtesting.css';
 import { Link } from 'react-router-dom';
 import testingImage from '../../assets/sonarqube.png';
+import ContentLoader from '../../components/ContentLoader';
 
 function Home() {
   return (
+        <ContentLoader>
+    
     <div className="hybrid-cloud-container">
       {/* Top Bar Section */}
       <div className="Home Container">
@@ -204,6 +207,8 @@ function Home() {
 
 
     </div>
+        </ContentLoader>
+    
   );
 }
 
