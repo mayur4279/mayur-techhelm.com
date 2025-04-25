@@ -10,6 +10,7 @@ export default defineConfig({
     strictPort: true, // Prevents fallback to another port
     allowedHosts: [
       'helmbytes.linkpc.net', // Your domain
+      'www.helmbytes.linkpc.net', // Your domain
       'localhost',            // Local development
     ],
   },
